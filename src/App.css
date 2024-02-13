@@ -125,7 +125,7 @@
 .contact {
   background-image: url(../public/images/contactus.svg);
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 100%;
   background-position: right;
   background-size: cover;
 }
@@ -162,6 +162,29 @@
   background-size: cover;
 }
 
+.about_bg {
+  background-image: url(../public/images/aboutBg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+  background-size: cover;
+}
+
+.global_bg {
+  background-image: url(../public/images/world.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+  background-size: cover;
+}
+
+.partnerBg {
+  background-image: url(../public/images/partnerAbout.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
 .first_gradient {
   background: linear-gradient(180deg, rgba(64, 64, 64, 0) 0%, #181818 78.64%);
   border-radius: 12px;
@@ -245,4 +268,8 @@
     background-image: url(../public/images/grid5.svg);
     height: 400px;
   }
+}
+
+.global_image {
+  background: lightgray 76px -35.547px / 71.904% 151.662% no-repeat;
 }
