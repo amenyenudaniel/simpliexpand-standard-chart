@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const location = useLocation();
   return (
     <nav>
       <section className="blue-gradient h-[17px] flex items-center justify-end gap-[10px] px-[60px] py-[12px]">
@@ -28,18 +29,26 @@ const Navbar = () => {
         <div className="md:flex items-center gap-[15px] hidden ">
           <Link
             to={"/"}
-            className="text-lightBlue text-[16px] leading-[22px] mediumF cursor-pointer"
+            className={`text-${
+              location.pathname === "/" ? "lightBlue" : "lightGray"
+            } text-[16px] leading-[22px] mediumF cursor-pointer`}
           >
             Home
           </Link>
           <Link
             to={"/services"}
-            className="text-lightGray text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue"
+            className={`text-${
+              location.pathname === "/services" ? "lightBlue" : "lightGray"
+            } text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue`}
           >
             Products & Services
           </Link>
           <div className="flex items-center gap-[4px] link__hover">
-            <p className="text-lightGray text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue">
+            <p
+              className={`text-${
+                location.pathname.includes("/about") ? "lightBlue" : "lightGray"
+              } text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue`}
+            >
               About
             </p>
             <img
@@ -65,7 +74,9 @@ const Navbar = () => {
           </div>
           <Link
             to={"/contact"}
-            className="text-lightGray text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue"
+            className={`text-${
+              location.pathname === "/contact" ? "lightBlue" : "lightGray"
+            } text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue`}
           >
             Contact
           </Link>

@@ -69,6 +69,9 @@
   padding-left: 10%;
   padding-right: 10%;
 }
+.paddingLeft {
+  padding-left: 10%;
+}
 .hero_bg {
   background-image: url(../public/images/heroBg.svg);
   background-position: center;
@@ -98,6 +101,10 @@
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .paddingLeft {
+    padding-left: 5%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -105,12 +112,20 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
+
+  .paddingLeft {
+    padding-left: 3rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .padding {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .paddingLeft {
+    padding-left: 2rem;
   }
 }
 
@@ -272,4 +287,24 @@
 
 .global_image {
   background: lightgray 76px -35.547px / 71.904% 151.662% no-repeat;
+}
+
+/* new */
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-content.open {
+  display: block;
+}
+
+/* CSS for smooth transition */
+.transition-opacity {
+  transition: opacity 0.5s ease;
+}
+
+/* CSS for fade-in effect */
+.fade-in {
+  opacity: 1;
 }
