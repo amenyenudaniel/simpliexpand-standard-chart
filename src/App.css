@@ -154,6 +154,14 @@
   background-size: cover;
 }
 
+.contact_bg {
+  background-image: url(../public/images/contactBg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+  background-size: cover;
+}
+
 .first_gradient {
   background: linear-gradient(180deg, rgba(64, 64, 64, 0) 0%, #181818 78.64%);
   border-radius: 12px;
