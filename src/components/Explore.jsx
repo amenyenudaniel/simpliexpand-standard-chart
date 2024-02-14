@@ -1,7 +1,9 @@
 import React from "react";
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 
 const Explore = () => {
+  const navigate = useNavigate();
   return (
     <section className="flex sm:flex-row lg:gap-[4rem] md:gap-[2rem] gap-[1rem] flex-col items-center justify-center padding">
       <img
@@ -25,7 +27,10 @@ const Explore = () => {
           Wealth hub of Ghana and provides Ghanaians a suite of world class
           options to grow and protect their wealth.
         </p>
-        <div className="md:mt-[56px] mt-[20px]">
+        <div
+          className="md:mt-[56px] mt-[20px]"
+          onClick={() => navigate("/services")}
+        >
           <Button
             text={"Explore Investment Products"}
             icon={"/images/arrow-button.svg"}

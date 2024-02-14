@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
         <div className="mt-[47px]">
           <button
-            onClick={navigate("/services")}
+            onClick={() => navigate("/services")}
             className="rounded-[2000px] button_gradient flex items-center px-[30px]  py-[16px] cursor-pointer gap-[5px] hover:bg-black transition"
           >
             <p className="sm:text-[18px] text-[16px] mediumF text-white leading-[22px] ">
@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
         <div className="mt-[30px] mb-[50px]">
           <button
-            onClick={navigate("/services")}
+            onClick={() => navigate("/services")}
             className="rounded-[2000px] button_gradient flex items-center px-[30px]  py-[16px] cursor-pointer gap-[5px] hover:bg-black transition"
           >
             <p className="sm:text-[18px] text-[16px] mediumF text-white leading-[22px] ">

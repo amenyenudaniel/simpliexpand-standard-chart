@@ -11,7 +11,7 @@ const TeamB = () => {
   return (
     <section className="padding">
       {/* Management */}
-      <section className="flex md:flex-row flex-col gap-[10px] relative md:text-start text-center ">
+      <section className="flex md:flex-row flex-col gap-[10px] relative md:text-start text-center">
         {managementTeam2.map((item, index) => (
           <div key={index}>
             <div
@@ -30,21 +30,30 @@ const TeamB = () => {
               <p className="text-[14px] mediumF text-deepGray leading-[16px]">
                 {item.title}
               </p>
-              <div
-                className={`flex items-center cursor-pointer mt-[16px] mb-[20px] ${
-                  activeIndex === index && "hidden"
-                }`}
-                onClick={() => toggleAccordion(index)}
-              >
-                <p className="lightF text-lightBlue text-[16px] cursor-pointer hover:underline transition">
-                  View more
-                </p>
+
+              {activeIndex !== index ? (
+                <div
+                  className={`flex items-center items-end cursor-pointer mt-[16px] mb-[20px] ${
+                    activeIndex === index && "hidden"
+                  }`}
+                  onClick={() => toggleAccordion(index)}
+                >
+                  <p className="lightF text-lightBlue text-[16px] cursor-pointer hover:underline transition">
+                    View more
+                  </p>
+                  <img
+                    src="/images/arrowdownblue.svg"
+                    alt="arrow_blue"
+                    className="w-[20px] h-[20px] mb-[-5px]"
+                  />
+                </div>
+              ) : (
                 <img
-                  src="/images/arrowdownblue.svg"
-                  alt="arrow_blue"
-                  className="w-[20px] h-[20px] mb-[-5px]"
+                  src="/images/arrow-view.svg"
+                  alt="arrow-view "
+                  className="mt-[22px] absolute top-[13rem] md:flex hidden"
                 />
-              </div>
+              )}
             </div>
             {activeIndex === index && (
               <div className="md:mt-[50px] mt-[20px] bg-[#F7F7F7] px-[16px] py-[15px] md:absolute left-0 top-[13rem]">

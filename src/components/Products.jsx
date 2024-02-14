@@ -62,7 +62,7 @@ const Products = () => {
 
       <section className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center">
         <img
-          src="/images/income.png"
+          src="/images/icome.png"
           alt="service-img"
           className="xl:w-[700px] lg:w-[600px] md:w-[400px] w-full"
         />
