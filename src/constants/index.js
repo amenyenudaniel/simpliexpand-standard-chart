@@ -66,7 +66,7 @@ export const managementTeam = [
 
   {
     id: 3,
-    name: "Merilyn Kwasie",
+    name: "Marilyn Kwasie",
     title: "ESQ",
     image: "/images/team2.png",
     appointment:
@@ -79,6 +79,19 @@ export const managementTeam = [
 ];
 
 export const managementTeam2 = [
+  {
+    id: 3,
+    name: "Kwabena Koranteng",
+    title:
+      "Executive Director  & Chief Financial Officer (SCBGH), Director (SCWMLC)",
+    image: "/images/team5.png",
+    appointment:
+      "Kwabena joined Standard Chartered, Nigeria in 2022 as Chief Risk Officer and Head of Operational Risk, West Africa. And also joined SCWMLC on 12 October 2022 as the Chairman and Director the Board. He has over 22 years’ experience in the financial sector having held other roles at Standard Chartered Ghana and Barclays Group across several countries in Africa and Indian Ocean. His previous roles held includes Chief Risk Officer Ghana, Chief Risk Officer Seychelles, Regional Credit Officer Johannesburg, Head of Wholesale Credit, Ghana and Head of Compliance, Seychelles amongst others. ",
+    career:
+      "Kwabena provides oversight of the enterprise-wide risks and leadership on risk issues, developing and maintaining risk management framework and fostering a strong risk culture across the organisation. He is responsible for enabling the efficient and effective governance of significant risks, and related opportunities for the franchise in West Africa and a strategic enabler in integrating risk management in the bank’s strategic initiatives. Kwabena is passionate about developing talent and empowering young people. As a sponsor of Talent Market place, Kwabena was actively involved in promoting a talent sharing mindset among his peers, drives opportunity creation and encourages usage of the platform.",
+    education:
+      "He is Chartered Management Account and also a member of the Institute of Chartered Accountants Ghana. Holds a first degree in Bsc. Business Administration (Banking and Finance option) from the University of Ghana and a Master of Business Administration from the University of Leicester U.K  ",
+  },
   {
     id: 1,
     name: "Dr Setor Quashigah",
@@ -94,7 +107,7 @@ export const managementTeam2 = [
 
   {
     id: 2,
-    name: "ALBERT LARWEH ASANTE",
+    name: "Albert Larweh Asante",
     title:
       "Executive Director  & Chief Financial Officer (SCBGH), Director (SCWMLC)",
     image: "/images/team4.png",
@@ -104,20 +117,6 @@ export const managementTeam2 = [
       "Albert joined Standard Chartered Bank Ghana PLC in 2006 and has held various senior roles including: Head, Wholesale Banking Business Finance, Ghana; Financial Controller and Chief Financial Officer (CFO) for Standard Chartered Bank Angola S.A. He was an Executive Director of the Bank in Angola and acted as Chief Executive Officer for nearly a year. Until his appointment, he acted as CFO for six (6) months and prior to that was the Cluster Head of Finance for Corporate, Commercial & Institutional Banking, West Africa with oversight responsibility for Nigeria, Ghana, Cameroon, Cote d’Ivoire, Gambia and Sierra Leone.",
     education:
       "Albert is a Fellow of the Institute of Chartered Accountants, Ghana; a CFA Charterholder, holds an MBA from the University of Warwick, United Kingdom and Bachelor of Science in Administration (Accounting) from the University of Ghana, Legon. ",
-  },
-
-  {
-    id: 3,
-    name: "Kwabena Koranteng",
-    title:
-      "Executive Director  & Chief Financial Officer (SCBGH), Director (SCWMLC)",
-    image: "/images/team5.png",
-    appointment:
-      "Kwabena joined Standard Chartered, Nigeria in 2022 as Chief Risk Officer and Head of Operational Risk, West Africa. And also joined SCWMLC on 12 October 2022 as the Chairman and Director the Board. He has over 22 years’ experience in the financial sector having held other roles at Standard Chartered Ghana and Barclays Group across several countries in Africa and Indian Ocean. His previous roles held includes Chief Risk Officer Ghana, Chief Risk Officer Seychelles, Regional Credit Officer Johannesburg, Head of Wholesale Credit, Ghana and Head of Compliance, Seychelles amongst others. ",
-    career:
-      "Kwabena provides oversight of the enterprise-wide risks and leadership on risk issues, developing and maintaining risk management framework and fostering a strong risk culture across the organisation. He is responsible for enabling the efficient and effective governance of significant risks, and related opportunities for the franchise in West Africa and a strategic enabler in integrating risk management in the bank’s strategic initiatives. Kwabena is passionate about developing talent and empowering young people. As a sponsor of Talent Market place, Kwabena was actively involved in promoting a talent sharing mindset among his peers, drives opportunity creation and encourages usage of the platform.",
-    education:
-      "He is Chartered Management Account and also a member of the Institute of Chartered Accountants Ghana. Holds a first degree in Bsc. Business Administration (Banking and Finance option) from the University of Ghana and a Master of Business Administration from the University of Leicester U.K  ",
   },
 
   {

@@ -15,7 +15,7 @@ const TeamB = () => {
         {managementTeam2.map((item, index) => (
           <div key={index}>
             <div
-              className={`lg:w-[300px] md:w-[200px] w-full flex flex-col items-center justify-center text-center ${
+              className={`lg:w-[300px] w-full flex flex-col items-center justify-center text-center ${
                 activeIndex === index && "lg:mb-[95vh] xl:mb-[50vh]"
               } `}
             >
