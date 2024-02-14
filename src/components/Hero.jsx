@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <header className="hero_bg flex sm:justify-center justify-end flex-col padding">
       <section className="hidden sm:block">
@@ -24,7 +26,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="mt-[47px]">
-          <button className="rounded-[2000px] button_gradient flex items-center px-[30px]  py-[16px] cursor-pointer gap-[5px] hover:bg-black transition">
+          <button
+            onClick={navigate("/services")}
+            className="rounded-[2000px] button_gradient flex items-center px-[30px]  py-[16px] cursor-pointer gap-[5px] hover:bg-black transition"
+          >
             <p className="sm:text-[18px] text-[16px] mediumF text-white leading-[22px] ">
               Explore Investment Products
             </p>
@@ -57,7 +62,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="mt-[30px] mb-[50px]">
-          <button className="rounded-[2000px] button_gradient flex items-center px-[30px]  py-[16px] cursor-pointer gap-[5px] hover:bg-black transition">
+          <button
+            onClick={navigate("/services")}
+            className="rounded-[2000px] button_gradient flex items-center px-[30px]  py-[16px] cursor-pointer gap-[5px] hover:bg-black transition"
+          >
             <p className="sm:text-[18px] text-[16px] mediumF text-white leading-[22px] ">
               Explore Investment Products
             </p>

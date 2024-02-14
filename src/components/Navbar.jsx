@@ -13,7 +13,7 @@ const Navbar = () => {
       </section>
 
       <section className="sm:px-[60px] px-[1rem] py-[12px] flex items-center justify-between">
-        <div className="flex items-center">
+        <Link to={"/"} className="flex items-center cursor-pointer">
           <img
             src="/images/logo-icon.svg"
             alt="logo-icon"
@@ -24,7 +24,7 @@ const Navbar = () => {
             alt="logo-text"
             className="sm:w-[293px] w-[220px] sm:h-[29px]  h-[25px] object-contain ml-[-2px]"
           />
-        </div>
+        </Link>
 
         <div className="md:flex items-center gap-[15px] hidden ">
           <Link

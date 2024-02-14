@@ -40,7 +40,7 @@ const Accordion = () => {
   };
 
   return (
-    <section className="paddingLeft mt-[81px] mb-[50px] xl:ml-[300px] ml-0">
+    <section className="padding mt-[81px] mb-[50px] xl:ml-[200px] ml-0">
       <p className="text-green text-[16px] leading-[22px] mediumF md:mb-[16px] mb-[10px]">
         Our Investment Products
       </p>
@@ -54,7 +54,7 @@ const Accordion = () => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="max-w-[500px] md:h-[50vh] h-full">
+        <div className="max-w-[450px] xl:h-[60vh] lg:h-[80vh] h-full">
           {accordionData.map((item, index) => (
             <div key={index} className="border-b border-[#DCDDDD]">
               <button
@@ -81,7 +81,7 @@ const Accordion = () => {
                       <img
                         src="/images/blue-arrow.svg"
                         alt="arrow_blue"
-                        className="w-[20px] h-[20px] mb-[-5px]"
+                        className="w-[20px] h-[20px] mb-[-5px] "
                       />
                     </div>
                   </div>
@@ -89,7 +89,7 @@ const Accordion = () => {
                     <img
                       src={item.image}
                       alt="accordion_image"
-                      className="md:absolute top-0 right-0 lg:w-[600px] w-[400px] lg:h-[500px] h-[300px] object-cover"
+                      className="md:absolute top-0 right-0 xl:w-[800px] xl:h-[600px] lg:h-[500px] lg:w-[600px] w-[400px] h-[350px] object-cover rounded-[10px]"
                     />
                   )}
                 </div>

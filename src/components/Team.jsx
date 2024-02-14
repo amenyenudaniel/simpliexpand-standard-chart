@@ -60,12 +60,16 @@ const Team = () => {
             </div>
             {activeIndex === index && (
               <div className="md:mt-[50px] mt-[20px] bg-[#F7F7F7] px-[16px] py-[15px] md:absolute left-0 top-[11rem]">
-                <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
-                  <span className="text-darkGray boldF leading-[21px]">
-                    Appointment:{" "}
-                  </span>
-                  {item.appointment}
-                </p>
+                {item.appointment && (
+                  <div>
+                    <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
+                      <span className="text-darkGray boldF leading-[21px]">
+                        Appointment:{" "}
+                      </span>
+                      {item.appointment}
+                    </p>
+                  </div>
+                )}
 
                 <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
                   <span className="text-darkGray boldF leading-[21px]">

@@ -5,7 +5,7 @@ const Explore = () => {
   return (
     <section className="flex sm:flex-row lg:gap-[4rem] md:gap-[2rem] gap-[1rem] flex-col items-center justify-center padding">
       <img
-        src="/images/explore.svg"
+        src="/images/explore.png"
         alt="explore_image"
         className="lg:w-[652px] lg:h-[474px] md:w-[400px] sm:w-[300px] md:h-[500px] sm:h-[400px] w-full h-full"
       />

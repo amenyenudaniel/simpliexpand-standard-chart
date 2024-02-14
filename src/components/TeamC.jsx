@@ -16,7 +16,7 @@ const TeamC = () => {
           <div key={index}>
             <div
               className={`lg:w-[300px] md:w-[200px] w-full flex flex-col items-center justify-center text-center ${
-                activeIndex === index && "md:mb-[50vh]"
+                activeIndex === index && "md:mb-[70vh] xl:mb-[50vh]"
               } `}
             >
               <img

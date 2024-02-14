@@ -19,19 +19,15 @@ const Grid = () => {
           <div className="grid1 flex items-end mainGrid w-full">
             <div className="first_gradient p-[38px] w-full">
               <h2 className="text-white sm:text-[23px] text-[18px] boldF leading-[27px] mb-[12px]">
-                Secure & Simple
+                Save money on transfers
               </h2>
-              <p className="text-white sm:text-[18px] text-[15px] leading-[25px]lightF">
-                Trust Your Money with the Best
-              </p>
 
               <div className="hiddenGrid hidden">
                 <div className="mt-[24px] flex items-center gap-[10px]">
                   <div className="w-[7px] h-[60px] bg-line"></div>
                   <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
-                    Forget complex paperwork and confusing jargon. Our intuitive
-                    platform makes buying and selling USD, EUR, and GBP
-                    accessible and effortless.
+                    Are you a business that imports from China? Transfer in
+                    Chinese Yuan (CNY) instead of USD.
                   </p>
                 </div>
                 <div className="mt-[24px]">
@@ -47,21 +43,32 @@ const Grid = () => {
           <div className="grid2 flex items-end mainGrid">
             <div className="first_gradient p-[38px] w-full">
               <h2 className="text-white sm:text-[23px] text-[18px] boldF leading-[27px] mb-[12px]">
-                Secure & Simple
+                Beat the Market
               </h2>
               <p className="text-white sm:text-[18px] text-[15px] leading-[25px]lightF">
-                Trust Your Money with the Best
+                Score Winning FX Rates Every Time
               </p>
 
               <div className="hiddenGrid hidden">
-                <div className="mt-[24px] flex items-center gap-[10px]">
-                  <div className="w-[7px] h-[60px] bg-line"></div>
-                  <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
-                    Forget complex paperwork and confusing jargon. Our intuitive
-                    platform makes buying and selling USD, EUR, and GBP
-                    accessible and effortless.
-                  </p>
+                <div className="flex gap-[1rem]">
+                  <div className="mt-[24px] flex items-center gap-[10px]">
+                    <div className="w-[7px] h-[60px] bg-line"></div>
+                    <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
+                      Forget hidden fees and inflated margins. We offer
+                      transparent, market-leading rates on USD, EUR,GBP and
+                      other currencies, putting more money in your pocket
+                    </p>
+                  </div>
+                  <div className="mt-[24px] flex items-center gap-[10px]">
+                    <div className="w-[7px] h-[60px] bg-line"></div>
+                    <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
+                      No more wondering if you're getting the best deal. Our
+                      competitive FX pricing ensures you always get the best
+                      rates for your FX purchases and inward transfers
+                    </p>
+                  </div>
                 </div>
+
                 <div className="mt-[24px]">
                   <Button
                     icon={"/images/arrow-button.svg"}
@@ -78,19 +85,22 @@ const Grid = () => {
           <div className="grid3 flex items-end mainGrid">
             <div className="first_gradient p-[38px] w-full">
               <h2 className="text-white sm:text-[23px] text-[18px] boldF leading-[27px] mb-[12px]">
-                Secure & Simple
+                Your FX Playground
               </h2>
               <p className="text-white sm:text-[18px] text-[15px] leading-[25px]lightF">
-                Trust Your Money with the Best
+                Manage Currencies Anytime, anywhere
               </p>
 
               <div className="hiddenGrid hidden">
                 <div className="mt-[24px] flex items-center gap-[10px]">
                   <div className="w-[7px] h-[60px] bg-line"></div>
                   <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
-                    Forget complex paperwork and confusing jargon. Our intuitive
-                    platform makes buying and selling USD, EUR, and GBP
-                    accessible and effortless.
+                    Forget hidden fees and inflated margins. We offer
+                    transparent, Travel, business, investments – whatever your
+                    FX need, our platform gives you 24/7 access to buy and sell
+                    USD, EUR, and GBP with ease. Market-leading rates on USD,
+                    EUR,GBP and other currencies, putting more money in your
+                    pocket
                   </p>
                 </div>
                 <div className="mt-[24px]">
@@ -136,21 +146,31 @@ const Grid = () => {
           <div className="grid5 flex items-end mainGrid w-[1320px]">
             <div className="first_gradient p-[38px] w-full">
               <h2 className="text-white sm:text-[23px] text-[18px] boldF leading-[27px] mb-[12px]">
-                Secure & Simple
+                Join the FX Revolution
               </h2>
               <p className="text-white sm:text-[18px] text-[15px] leading-[25px]lightF">
-                Trust Your Money with the Best
+                Experience the Future of Currency Exchange
               </p>
 
               <div className="hiddenGrid hidden">
-                <div className="mt-[24px] flex items-center gap-[10px]">
-                  <div className="w-[7px] h-[60px] bg-line"></div>
-                  <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
-                    Forget complex paperwork and confusing jargon. Our intuitive
-                    platform makes buying and selling USD, EUR, and GBP
-                    accessible and effortless.
-                  </p>
+                <div className="flex gap-[1rem]">
+                  <div className="mt-[24px] flex items-center gap-[10px]">
+                    <div className="w-[7px] h-[60px] bg-line"></div>
+                    <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
+                      Ditch the old, embrace the new. Our digital platform is
+                      redefining how you access and manage your USD, EUR, and
+                      GBP, making it simpler, faster, and more rewarding
+                    </p>
+                  </div>
+                  <div className="mt-[24px] flex items-center gap-[10px]">
+                    <div className="w-[7px] h-[60px] bg-line"></div>
+                    <p className="text-white lightF sm:text-[16px] text-[15px] leading-[22px]">
+                      Take control of your finances and unlock a world of
+                      currency possibilities. Start your FX journey today!
+                    </p>
+                  </div>
                 </div>
+
                 <div className="mt-[24px]">
                   <Button
                     icon={"/images/arrow-button.svg"}

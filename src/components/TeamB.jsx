@@ -11,12 +11,12 @@ const TeamB = () => {
   return (
     <section className="padding">
       {/* Management */}
-      <section className="flex md:flex-row flex-col gap-[10px] relative md:text-start text-center">
+      <section className="flex md:flex-row flex-col gap-[10px] relative md:text-start text-center ">
         {managementTeam2.map((item, index) => (
           <div key={index}>
             <div
               className={`lg:w-[300px] md:w-[200px] w-full flex flex-col items-center justify-center text-center ${
-                activeIndex === index && "md:mb-[50vh]"
+                activeIndex === index && "lg:mb-[95vh] xl:mb-[50vh]"
               } `}
             >
               <img
@@ -30,7 +30,6 @@ const TeamB = () => {
               <p className="text-[14px] mediumF text-deepGray leading-[16px]">
                 {item.title}
               </p>
-
               <div
                 className={`flex items-center cursor-pointer mt-[16px] mb-[20px] ${
                   activeIndex === index && "hidden"
