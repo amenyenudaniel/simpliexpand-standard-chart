@@ -66,9 +66,9 @@ const Accordion = () => {
                   activeIndex === index ? "open" : ""
                 }`}
               >
-                <div className="">
+                <div>
                   <div>
-                    <p className="leading-[22px] text-[16px] lightF text-deepGray">
+                    <p className="leading-[22px] text-[16px] lightF text-deepGray mb-[1rem]">
                       {item.content}
                     </p>
                     {item.link && (

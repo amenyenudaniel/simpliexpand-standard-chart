@@ -74,10 +74,11 @@ const Scan = () => {
               </div>
             </div>
           </div>
-
-          <button className="bg-[#38D200] px-[16px] py-[12px] rounded-[60px] mt-[57px] text-[18px] boldF text-white hover:cursor-pointer outline-none hover:border border-[#38D200] hover:border-2 hover:bg-transparent transition">
-            Sign up now
-          </button>
+          <a href="mailto:GH.WEALTH@sc.com">
+            <button className="bg-[#38D200] px-[16px] py-[12px] rounded-[60px] mt-[57px] text-[18px] boldF text-white hover:cursor-pointer outline-none hover:border border-[#38D200] hover:border-2 hover:bg-transparent transition">
+              Sign up now
+            </button>
+          </a>
         </div>
 
         <img
