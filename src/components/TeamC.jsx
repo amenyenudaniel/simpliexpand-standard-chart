@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { managementTeam } from "../constants";
+import { managementTeam2, managementTeam3 } from "../constants";
 
-const Team = () => {
+const TeamC = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -10,23 +10,12 @@ const Team = () => {
 
   return (
     <section className="padding">
-      <h1 className="text-center blue_gradient_text mt-[41px] mb-[44px] sm:text-[32px] text-[25px] boldF leading-[38px]">
-        Meet our Team
-      </h1>
-
-      <section className="flex items-center mb-[20px]">
-        <h2 className="sm:text-[20px] text-[18px] sm:w-[220px] w-full boldF text-darkGray leading-[24px]">
-          Management Team
-        </h2>
-        <div className="bg-[#DCDDDD] w-[80%] h-[1px] md:block hidden mt-[4px]"></div>
-      </section>
-
       {/* Management */}
       <section className="flex md:flex-row flex-col gap-[10px] relative md:text-start text-center">
-        {managementTeam.map((item, index) => (
+        {managementTeam3.map((item, index) => (
           <div key={index}>
             <div
-              className={`lg:w-[300px] md:w-[200px] w-full flex flex-col items-center justify-center ${
+              className={`lg:w-[300px] md:w-[200px] w-full flex flex-col items-center justify-center text-center ${
                 activeIndex === index && "md:mb-[50vh]"
               } `}
             >
@@ -43,7 +32,7 @@ const Team = () => {
               </p>
 
               <div
-                className={`flex items-center cursor-pointer mt-[16px] mb-[20px] ${
+                className={`flex items-center cursor-pointer mt-[30px] mb-[20px] ${
                   activeIndex === index && "hidden"
                 }`}
                 onClick={() => toggleAccordion(index)}
@@ -59,7 +48,7 @@ const Team = () => {
               </div>
             </div>
             {activeIndex === index && (
-              <div className="md:mt-[50px] mt-[20px] bg-[#F7F7F7] px-[16px] py-[15px] md:absolute left-0 top-[11rem]">
+              <div className="md:mt-[50px] mt-[20px] bg-[#F7F7F7] px-[16px] py-[15px] md:absolute left-0 top-[14rem]">
                 <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
                   <span className="text-darkGray boldF leading-[21px]">
                     Appointment:{" "}
@@ -99,17 +88,8 @@ const Team = () => {
           </div>
         ))}
       </section>
-
-      {/* Second */}
-
-      <section className="flex items-center mt-[50px] mb-[20px]">
-        <h2 className="sm:text-[20px] text-[18px] sm:w-[220px] w-full boldF text-darkGray leading-[24px]">
-          Board of Directors
-        </h2>
-        <div className="bg-[#DCDDDD] w-[80%] h-[1px] md:block hidden mt-[4px]"></div>
-      </section>
     </section>
   );
 };
 
-export default Team;
+export default TeamC;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { accordionData } from "../constants";
 
 const Accordion = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(1);
   const [autoplayInterval, setAutoplayInterval] = useState(null);
 
   useEffect(() => {
@@ -40,7 +40,7 @@ const Accordion = () => {
   };
 
   return (
-    <section className="paddingLeft mt-[81px] mb-[50px]">
+    <section className="paddingLeft mt-[81px] mb-[50px] xl:ml-[300px] ml-0">
       <p className="text-green text-[16px] leading-[22px] mediumF md:mb-[16px] mb-[10px]">
         Our Investment Products
       </p>
@@ -54,7 +54,7 @@ const Accordion = () => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="max-w-[417px] md:h-[90vh] h-full">
+        <div className="max-w-[500px] md:h-[50vh] h-full">
           {accordionData.map((item, index) => (
             <div key={index} className="border-b border-[#DCDDDD]">
               <button
