@@ -21,7 +21,6 @@ const Grid = () => {
               <h2 className="text-white sm:text-[23px] text-[18px] boldF leading-[27px] mb-[12px]">
                 Save money on transfers
               </h2>
-
               <div className="hiddenGrid hidden">
                 <div className="mt-[24px] flex items-center gap-[10px]">
                   <div className="w-[7px] h-[60px] bg-line"></div>
@@ -29,12 +28,6 @@ const Grid = () => {
                     Are you a business that imports from China? Transfer in
                     Chinese Yuan (CNY) instead of USD.
                   </p>
-                </div>
-                <div className="mt-[24px]">
-                  <Button
-                    icon={"/images/arrow-button.svg"}
-                    text={"Learn more"}
-                  />
                 </div>
               </div>
             </div>
@@ -68,13 +61,6 @@ const Grid = () => {
                     </p>
                   </div>
                 </div>
-
-                <div className="mt-[24px]">
-                  <Button
-                    icon={"/images/arrow-button.svg"}
-                    text={"Learn more"}
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -103,12 +89,6 @@ const Grid = () => {
                     pocket
                   </p>
                 </div>
-                <div className="mt-[24px]">
-                  <Button
-                    icon={"/images/arrow-button.svg"}
-                    text={"Learn more"}
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -130,12 +110,6 @@ const Grid = () => {
                     platform makes buying and selling USD, EUR, and GBP
                     accessible and effortless.
                   </p>
-                </div>
-                <div className="mt-[24px]">
-                  <Button
-                    icon={"/images/arrow-button.svg"}
-                    text={"Learn more"}
-                  />
                 </div>
               </div>
             </div>
@@ -169,13 +143,6 @@ const Grid = () => {
                       currency possibilities. Start your FX journey today!
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-[24px]">
-                  <Button
-                    icon={"/images/arrow-button.svg"}
-                    text={"Learn more"}
-                  />
                 </div>
               </div>
             </div>

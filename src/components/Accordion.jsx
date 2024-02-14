@@ -1,41 +1,39 @@
 import React, { useState, useEffect } from "react";
 import { accordionData } from "../constants";
+import { Link, useNavigate } from "react-router-dom";
 
 const Accordion = () => {
+  const navigate = useNavigate();
+
   const [activeIndex, setActiveIndex] = useState(1);
   const [autoplayInterval, setAutoplayInterval] = useState(null);
 
   useEffect(() => {
-    // Start autoplay on component mount
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) =>
         prevIndex === accordionData.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change autoplay interval as needed (in milliseconds)
+    }, 5000);
     setAutoplayInterval(interval);
 
-    // Clear autoplay interval on component unmount
     return () => clearInterval(interval);
   }, []);
 
   const toggleAccordion = (index) => {
-    // Pause autoplay when an accordion item is clicked
     clearInterval(autoplayInterval);
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
   const handleMouseEnter = () => {
-    // Pause autoplay when hovering over the accordion
     clearInterval(autoplayInterval);
   };
 
   const handleMouseLeave = () => {
-    // Resume autoplay when not hovering over the accordion
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) =>
         prevIndex === accordionData.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change autoplay interval as needed (in milliseconds)
+    }, 5000);
     setAutoplayInterval(interval);
   };
 
@@ -73,17 +71,21 @@ const Accordion = () => {
                     <p className="leading-[22px] text-[16px] lightF text-deepGray">
                       {item.content}
                     </p>
-
-                    <div className="flex items-center mt-[16px] mb-[20px]">
-                      <p className="mediumF text-lightBlue text-[16px] underline hover:underline-darkGray cursor-pointer">
-                        Learn more
-                      </p>
-                      <img
-                        src="/images/blue-arrow.svg"
-                        alt="arrow_blue"
-                        className="w-[20px] h-[20px] mb-[-5px] "
-                      />
-                    </div>
+                    {item.link && (
+                      <Link
+                        to={`${item.link}`}
+                        className="flex items-center mt-[16px] mb-[20px]"
+                      >
+                        <p className="mediumF text-lightBlue text-[16px] underline hover:underline-darkGray cursor-pointer">
+                          Learn more
+                        </p>
+                        <img
+                          src="/images/blue-arrow.svg"
+                          alt="arrow_blue"
+                          className="w-[20px] h-[20px] mb-[-5px] "
+                        />
+                      </Link>
+                    )}
                   </div>
                   {activeIndex === index && (
                     <img

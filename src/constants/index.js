@@ -5,6 +5,7 @@ export const accordionData = [
     content:
       "Our mutual funds offer an affordable access to a range of assets and markets to match your risk profile and financial goals.",
     image: "/images/grid4.png",
+    link: "/services#mutual-funds",
   },
   {
     id: 2,
@@ -12,12 +13,13 @@ export const accordionData = [
     content:
       "Create steady income with stability in unpredictable market conditions.",
     image: "/images/grid1.png",
+    link: "/services#fixed-income-securities",
   },
   {
     id: 3,
     title: "Security Backed Lending",
     content:
-      "Personal line of credit is an efficient and convenient way of meeting all your short-term liquidity needs",
+      "Personal line of credit is an efficient and convenient way of meeting all your short-term liquidity needs.",
     image: "/images/grid2.png",
   },
   {
@@ -26,12 +28,13 @@ export const accordionData = [
     content:
       "Take advantage of our partnerships with global insurance providers to find the right protection for your health, retirement, education, legacy planning, savings, and investments.",
     image: "/images/grid3.png",
+    link: "/services#bancassrance",
   },
 
   {
     id: 4,
     title: "Wealth Lending",
-    content: "Unlocking Your Cash Needs with Foreign Currency Overdrafts",
+    content: "Unlocking Your Cash Needs with Foreign Currency Overdrafts.",
     image: "/images/grid4.png",
   },
 ];

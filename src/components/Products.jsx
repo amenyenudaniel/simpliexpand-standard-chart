@@ -1,10 +1,18 @@
-import React from "react";
+import { useEffect } from "react";
 
 const Products = () => {
+  useEffect(() => {
+    if (window.location.hash) {
+      const element = document.querySelector(window.location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
   return (
     <section className="padding">
       <section className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center">
-        <div className="md:max-w-[440px] w-full">
+        <div className="md:max-w-[440px] w-full" id="mutual-funds">
           <h2 className="sm:text-[20px] text-[18px] boldF sm:mb-[24px] mb-[10px] text-darkGray">
             Mutual Funds
           </h2>
@@ -60,7 +68,10 @@ const Products = () => {
 
       {/* second */}
 
-      <section className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center">
+      <section
+        className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center"
+        id="fixed-income-securities"
+      >
         <img
           src="/images/icome.png"
           alt="service-img"
@@ -76,16 +87,6 @@ const Products = () => {
             conditions.
           </p>
 
-          <div className="flex items-center md:mb-[20px] sm:mb-[15px] mb-[10px]">
-            <p className="mediumF text-lightBlue text-[16px] underline hover:underline-darkGray cursor-pointer">
-              Learn more
-            </p>
-            <img
-              src="/images/blue-arrow.svg"
-              alt="arrow_blue"
-              className="w-[20px] h-[20px]"
-            />
-          </div>
           <div className="flex flex-col gap-[12px]">
             <div className="flex gap-[10px] items-start">
               <img
@@ -141,7 +142,10 @@ const Products = () => {
 
       {/* Third */}
 
-      <section className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center">
+      <section
+        className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center"
+        id="bancassrance"
+      >
         <div className="md:max-w-[500px] w-full">
           <h2 className="sm:text-[20px] blue_gradient_text text-[18px] boldF sm:mb-[24px] mb-[10px]">
             Bancassrance - Protecting You and Your valuables
@@ -153,16 +157,6 @@ const Products = () => {
             legacy planning, savings, and investments.
           </p>
 
-          <div className="flex items-center md:mb-[20px] sm:mb-[15px] mb-[10px]">
-            <p className="mediumF text-lightBlue text-[16px] underline hover:underline-darkGray cursor-pointer">
-              Learn more
-            </p>
-            <img
-              src="/images/blue-arrow.svg"
-              alt="arrow_blue"
-              className="w-[20px] h-[20px]"
-            />
-          </div>
           <div className="flex flex-col gap-[12px]">
             <div className="flex gap-[10px] items-start">
               <img
