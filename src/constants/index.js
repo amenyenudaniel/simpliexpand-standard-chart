@@ -42,11 +42,11 @@ export const accordionData = [
 export const managementTeam = [
   {
     id: 1,
-    name: "Dr Setor Quashigah",
+    name: "Dr. Setor Quashigah",
     title: "Chief Executive Officer",
     image: "/images/team3.png",
     appointment:
-      "Dr Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
+      "Dr. Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
     career:
       "Setor is an experienced banker and leadership coach with a reputation for developing superior talent. Over the course of her 20-year career with the bank, she has held a number of senior roles including: Head of Direct Banking, Head of Proximity and Remote Banking and General Manager for Preferred and Priority Banking. In her current role, Setor is responsible for delivering world class wealth products and solutions. She has successfully built a team of high performing Relationship Managers and best in class Advisors who have contributed to the success of the overall Consumer, Private and Business Banking Segment.",
     education:
@@ -56,7 +56,7 @@ export const managementTeam = [
   {
     id: 2,
     name: "Jerry Asangba",
-    title: "Chief Executive Officer",
+    title: "Chief Investment Officer",
     image: "/images/team1.png",
     career:
       "Jerry Asangba has over 10 years of banking experience spanning Relationship Management, Investment Advisory, Managed Investments and Wealth Management Propositions. He joined Standard Chartered in 2012 and is currently responsible for the development and implementation of product strategies and solutions aimed at supporting the Consumer, Private and Business Banking clients through Standard Chartered Bank PLC’s investment advisory subsidiary, Standard Chartered Wealth Management Limited Company.",
@@ -66,8 +66,8 @@ export const managementTeam = [
 
   {
     id: 3,
-    name: "Marilyn Kwasie",
-    title: "ESQ",
+    name: "Marilyn Kwasie(ESQ)",
+    title: "Compliance Officer",
     image: "/images/team2.png",
     appointment:
       "Marilyn was appointed as SCWMLC Compliance Officer on 11th February 2023.  ",
@@ -94,11 +94,11 @@ export const managementTeam2 = [
   },
   {
     id: 1,
-    name: "Dr Setor Quashigah",
+    name: "Dr. Setor Quashigah",
     title: "Chief Executive Officer",
     image: "/images/team3.png",
     appointment:
-      "Dr Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
+      "Dr. Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
     career:
       "Setor is an experienced banker and leadership coach with a reputation for developing superior talent. Over the course of her 20-year career with the bank, she has held a number of senior roles including: Head of Direct Banking, Head of Proximity and Remote Banking and General Manager for Preferred and Priority Banking. In her current role, Setor is responsible for delivering world class wealth products and solutions. She has successfully built a team of high performing Relationship Managers and best in class Advisors who have contributed to the success of the overall Consumer, Private and Business Banking Segment.",
     education:
@@ -151,8 +151,8 @@ export const managementTeam3 = [
 
   {
     id: 2,
-    name: "Yaw Amponsah",
-    title: "ESQ",
+    name: "Yaw Awua Amponsah(ESQ)",
+    title: "Company Secretary",
     image: "/images/team8.png",
     appointment:
       "Yaw was appointed as Company Secretary on 12th October 2022 and is currently a Legal Counsel in the Legal Department of Standard Chartered Bank Ghana PLC.  ",
