@@ -50,7 +50,7 @@ const TeamB = () => {
                 <img
                   src="/images/arrow-view.svg"
                   alt="arrow-view "
-                  className="mt-[22px] absolute top-[13rem] md:flex hidden"
+                  className="md:mt-[60px] mt-[22px] md:flex hidden"
                 />
               )}
 
@@ -102,7 +102,7 @@ const TeamB = () => {
       </section>
 
       {managementTeam2.map((item, index) => (
-        <section className="md:pt-[5px] pt-[10px] hidden md:flex">
+        <section className="md:pt-[5px] lg:mt-[-5px] mt-[-10px] pt-[10px] hidden md:flex">
           {activeIndex === index && (
             <div className="mt-[-10px] bg-[#F7F7F7] px-[16px] py-[15px]">
               <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
