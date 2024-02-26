@@ -11,13 +11,12 @@ const TeamB = () => {
   return (
     <section className="padding">
       {/* Management */}
-      <section className="flex md:flex-row flex-col gap-[10px] relative md:text-start text-center">
+      <section className="grid md:grid-cols-4 grid-cols-1 gap-[10px] relative md:text-start text-center">
         {managementTeam2.map((item, index) => (
           <div key={index}>
             <div
-              className={`lg:w-[300px] w-full flex flex-col items-center justify-center text-center ${
-                activeIndex === index && "lg:mb-[95vh] xl:mb-[50vh]"
-              } `}
+              className={` w-full flex flex-col items-center justify-center text-center 
+                `}
             >
               <img
                 src={item.image}
@@ -54,48 +53,96 @@ const TeamB = () => {
                   className="mt-[22px] absolute top-[13rem] md:flex hidden"
                 />
               )}
-            </div>
-            {activeIndex === index && (
-              <div className="md:mt-[50px] mt-[20px] bg-[#F7F7F7] px-[16px] py-[15px] md:absolute left-0 top-[13rem]">
-                <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
-                  <span className="text-darkGray boldF leading-[21px]">
-                    Appointment:{" "}
-                  </span>
-                  {item.appointment}
-                </p>
 
-                <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
-                  <span className="text-darkGray boldF leading-[21px]">
-                    Career:{" "}
-                  </span>
-                  {item.career}
-                </p>
+              <div className="md:hidden mt-[10px]">
+                <section className="mt-[10px] ">
+                  {activeIndex === index && (
+                    <div className="mt-[-10px] bg-[#F7F7F7] px-[16px] py-[15px]">
+                      <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
+                        <span className="text-darkGray boldF leading-[21px]">
+                          Appointment:{" "}
+                        </span>
+                        {item.appointment}
+                      </p>
 
-                <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
-                  <span className="text-darkGray boldF leading-[21px]">
-                    Education:{" "}
-                  </span>
-                  {item.education}
-                </p>
+                      <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
+                        <span className="text-darkGray boldF leading-[21px]">
+                          Career:{" "}
+                        </span>
+                        {item.career}
+                      </p>
 
-                <div
-                  className="flex items-center cursor-pointer mt-[5px] border-t border-[#DCDDDD]"
-                  onClick={() => toggleAccordion(index)}
-                >
-                  <p className="lightF text-lightBlue text-[16px] cursor-pointer hover:underline transition">
-                    Hide Details
-                  </p>
-                  <img
-                    src="/images/arrowdownblue.svg"
-                    alt="arrow_blue"
-                    className="w-[20px] h-[20px] mb-[-5px]"
-                  />
-                </div>
+                      <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
+                        <span className="text-darkGray boldF leading-[21px]">
+                          Education:{" "}
+                        </span>
+                        {item.education}
+                      </p>
+
+                      <div
+                        className="flex items-center cursor-pointer mt-[5px] border-t border-[#DCDDDD]"
+                        onClick={() => toggleAccordion(index)}
+                      >
+                        <p className="lightF text-lightBlue text-[16px] cursor-pointer hover:underline transition">
+                          Hide Details
+                        </p>
+                        <img
+                          src="/images/arrowdownblue.svg"
+                          alt="arrow_blue"
+                          className="w-[20px] h-[20px] mb-[-5px]"
+                        />
+                      </div>
+                    </div>
+                  )}
+                </section>
               </div>
-            )}
+            </div>
           </div>
         ))}
       </section>
+
+      {managementTeam2.map((item, index) => (
+        <section className="md:pt-[5px] pt-[10px] hidden md:flex">
+          {activeIndex === index && (
+            <div className="mt-[-10px] bg-[#F7F7F7] px-[16px] py-[15px]">
+              <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
+                <span className="text-darkGray boldF leading-[21px]">
+                  Appointment:{" "}
+                </span>
+                {item.appointment}
+              </p>
+
+              <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
+                <span className="text-darkGray boldF leading-[21px]">
+                  Career:{" "}
+                </span>
+                {item.career}
+              </p>
+
+              <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
+                <span className="text-darkGray boldF leading-[21px]">
+                  Education:{" "}
+                </span>
+                {item.education}
+              </p>
+
+              <div
+                className="flex items-center cursor-pointer mt-[5px] border-t border-[#DCDDDD]"
+                onClick={() => toggleAccordion(index)}
+              >
+                <p className="lightF text-lightBlue text-[16px] cursor-pointer hover:underline transition">
+                  Hide Details
+                </p>
+                <img
+                  src="/images/arrowdownblue.svg"
+                  alt="arrow_blue"
+                  className="w-[20px] h-[20px] mb-[-5px]"
+                />
+              </div>
+            </div>
+          )}
+        </section>
+      ))}
     </section>
   );
 };

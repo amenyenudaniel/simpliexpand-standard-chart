@@ -160,5 +160,6 @@ export const managementTeam3 = [
       "He is a lawyer of fourteen (14) years standing and a Chartered Arbitrator. He has a diverse experience as a legal practitioner having worked as a Civil Defense Lawyer at the Attorney General’s Department, an in-house lawyer at PBC Limited, a licensed cocoa buying company and at Ghana’s premier university, the University of Ghana.  He has an interest in sharing legal knowledge and spent his formative years in legal practice as a volunteer Adviser at the Citizen’s Advice Bureaux, a British charity which provides free, independent and confidential advice on legal and other matters in the United Kingdom.",
     education:
       "Yaw holds a Bachelor of Arts in Law with Marketing from Buckinghamshire New University, United Kingdom and a Postgraduate Diploma in International Commercial Arbitration from Queen Mary, University of London.   ",
+    link: "ppp",
   },
 ];
