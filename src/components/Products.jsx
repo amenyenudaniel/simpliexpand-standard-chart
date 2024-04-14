@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   useEffect(() => {
@@ -11,9 +12,9 @@ const Products = () => {
   }, []);
   return (
     <section className="padding">
-      <section className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center">
-        <div className="md:max-w-[440px] w-full" id="mutual-funds">
-          <h2 className="sm:text-[20px] text-[18px] boldF sm:mb-[24px] mb-[10px] text-darkGray">
+      <section className="py-[24px] gap-[41px] grid md:grid-cols-2 w-full">
+        <div className="w-full" id="mutual-funds">
+          <h2 className="sm:text-[20px] text-[18px] boldF sm:mb-[24px] mb-[10px] newT">
             Mutual Funds
           </h2>
 
@@ -22,15 +23,24 @@ const Products = () => {
             markets to match your risk profile and financial goals.
           </p>
           <div className="flex flex-col gap-[12px]">
-            <div className="flex gap-[10px] items-start">
-              <img
-                src="/images/blueEllipse.svg"
-                alt="ellipse"
-                className="w-[12px] mt-[8px]"
-              />
-              <p className="text-darkGray sm:text-[16px] text-[15px] lightF sm:leading-[22px] leading-[19px]">
-                Access a wide range of funds from leading fund houses
-              </p>
+            <div>
+              <div className="flex gap-[10px] items-start">
+                <img
+                  src="/images/blueEllipse.svg"
+                  alt="ellipse"
+                  className="w-[12px] mt-[8px]"
+                />
+                <p className="text-darkGray sm:text-[16px] text-[15px] lightF sm:leading-[22px] leading-[19px]">
+                  Access a wide range of funds from leading fund houses
+                </p>
+              </div>
+
+              <Link to={"/services/fund-library"}>
+                <p className="lightF sm:text-[16px] text-[14px] underline text-lightBlue ml-[20px]">
+                  {" "}
+                  View Fund Library
+                </p>
+              </Link>
             </div>
 
             <div className="flex gap-[10px] items-start">
@@ -62,23 +72,23 @@ const Products = () => {
         <img
           src="/images/product.png"
           alt="service-img"
-          className="xl:w-[700px] lg:w-[600px] md:w-[400px] w-full"
+          className="w-full lg:h-[500px] h-full"
         />
       </section>
 
       {/* second */}
 
       <section
-        className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center"
+        className="py-[24px] grid md:grid-cols-2 gap-[41px] justify-center"
         id="fixed-income-securities"
       >
         <img
           src="/images/icome.png"
           alt="service-img"
-          className="xl:w-[700px] lg:w-[600px] md:w-[400px] w-full"
+          className="w-full lg:h-[500px] h-full"
         />
-        <div className="md:max-w-[500px] w-full">
-          <h2 className="sm:text-[20px] blue_gradient_text text-[18px] boldF sm:mb-[24px] mb-[10px]">
+        <div className="w-full">
+          <h2 className="sm:text-[20px] newT text-[18px] boldF sm:mb-[24px] mb-[10px]">
             Fixed Income Securities
           </h2>
 
@@ -143,11 +153,88 @@ const Products = () => {
       {/* Third */}
 
       <section
-        className="py-[24px] md:flex-row flex-col flex items-start gap-[41px] justify-center"
-        id="bancassrance"
+        className="py-[24px] grid md:grid-cols-2 gap-[41px] justify-center"
+        id="security"
       >
-        <div className="md:max-w-[500px] w-full">
-          <h2 className="sm:text-[20px] blue_gradient_text text-[18px] boldF sm:mb-[24px] mb-[10px]">
+        <div className=" w-full">
+          <h2 className="sm:text-[20px] newT text-[18px] boldF sm:mb-[24px] mb-[10px]">
+            Security Backed Lending
+          </h2>
+
+          <p className="sm:text-[16px] text-[15px] lightF text-deepGray mb-[32px]">
+            Personal line of credit is an efficient and convenient way of
+            meeting all your short-term liquidity needs
+          </p>
+
+          <div className="flex flex-col gap-[12px]">
+            <div className="flex gap-[10px] items-start">
+              <img
+                src="/images/blueEllipse.svg"
+                alt="ellipse"
+                className="w-[12px] mt-[8px]"
+              />
+              <p className="text-darkGray sm:text-[16px] text-[15px] lightF sm:leading-[22px] leading-[19px]">
+                Get financing cover up to maximum of 70% for securities and 90%
+                for fixed deposits .
+              </p>
+            </div>
+
+            <div className="flex gap-[10px] items-start">
+              <img
+                src="/images/blueEllipse.svg"
+                alt="ellipse"
+                className="w-[12px] mt-[8px]"
+              />
+              <p className="text-darkGray sm:text-[16px] text-[15px]  lightF sm:leading-[22px] leading-[19px]">
+                You get financing up to 90% of your collateral value for the
+                personal line of credit.
+              </p>
+            </div>
+            <div className="flex gap-[10px] items-start">
+              <img
+                src="/images/blueEllipse.svg"
+                alt="ellipse"
+                className="w-[12px] mt-[8px]"
+              />
+              <p className="text-darkGray sm:text-[16px] text-[15px] lightF  sm:leading-[22px] leading-[19px]">
+                Fixed Deposits maintained with Standard Chartered Bank and other
+                investments like Bonds, Treasury bills and Mutual funds.
+              </p>
+            </div>
+            <div className="flex gap-[10px] items-start">
+              <img
+                src="/images/blueEllipse.svg"
+                alt="ellipse"
+                className="w-[12px] mt-[8px]"
+              />
+              <p className="text-darkGray sm:text-[16px] text-[15px] lightF  sm:leading-[22px] leading-[19px]">
+                We offer the most competitive interest rates in the market. So,
+                you earn substantial returns on your investments and avail
+                Personal Line of Credit facility to balance out your cash needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="/images/security.png"
+          alt="service-img"
+          className="w-full lg:h-[500px] h-full"
+        />
+      </section>
+
+      {/* fourth */}
+
+      <section
+        className="py-[24px] grid md:grid-cols-2 gap-[41px] justify-center"
+        id="protect"
+      >
+        <img
+          src="/images/product4.png"
+          alt="service-img"
+          className="w-full lg:h-[500px] h-full"
+        />
+        <div className="w-full">
+          <h2 className="sm:text-[20px] newT text-[18px] boldF sm:mb-[24px] mb-[10px]">
             Bancassrance - Protecting You and Your valuables
           </h2>
 
@@ -216,10 +303,64 @@ const Products = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Last */}
+
+      <section
+        className="py-[24px] grid md:grid-cols-2 gap-[41px] justify-center"
+        id="wealth"
+      >
+        <div className="w-full">
+          <h2 className="sm:text-[20px] newT text-[18px] boldF sm:mb-[24px] mb-[10px]">
+            Wealth Lending
+          </h2>
+
+          <p className="sm:text-[16px] text-[15px] lightF text-deepGray mb-[32px]">
+            Unlocking Your Cash Needs with Foreign Currency Overdrafts
+          </p>
+
+          <div className="flex flex-col gap-[12px]">
+            <div className="flex gap-[10px] items-start">
+              <img
+                src="/images/blueEllipse.svg"
+                alt="ellipse"
+                className="w-[12px] mt-[8px]"
+              />
+              <p className="text-darkGray sm:text-[16px] text-[15px] lightF sm:leading-[22px] leading-[19px]">
+                Dollar Power in Your Pocket: Access Instant foreign currency
+                using your investment at Competitive Rates
+              </p>
+            </div>
+
+            <div className="flex gap-[10px] items-start">
+              <img
+                src="/images/blueEllipse.svg"
+                alt="ellipse"
+                className="w-[12px] mt-[8px]"
+              />
+              <p className="text-darkGray sm:text-[16px] text-[15px]  lightF sm:leading-[22px] leading-[19px]">
+                Secure Your Financial Future: Build Credit, Invest Wisely,
+                Weather Emergencies with foreign currency at Your Fingertips
+              </p>
+            </div>
+            <div className="flex gap-[10px] items-start">
+              <img
+                src="/images/blueEllipse.svg"
+                alt="ellipse"
+                className="w-[12px] mt-[8px]"
+              />
+              <p className="text-darkGray sm:text-[16px] text-[15px] lightF  sm:leading-[22px] leading-[19px]">
+                Ditch the High Borrowing Rates, Embrace Smart Borrowing: Our
+                Competitive Overdrafts Help access cash at low interest rates
+              </p>
+            </div>
+          </div>
+        </div>
         <img
-          src="/images/security.png"
+          src="/images/product5.png"
           alt="service-img"
-          className="xl:w-[700px] lg:w-[600px] md:w-[400px] w-full"
+          className="w-full lg:h-[500px] h-full"
         />
       </section>
     </section>

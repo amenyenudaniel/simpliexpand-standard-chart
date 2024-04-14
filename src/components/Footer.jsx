@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <section className="contact py-[2rem] sm:pl-[80px] pl-[2rem] flex flex-col justify-center items-center sm:items-start">
+      <section className="contact py-[2rem] sm:pl-[80px] sm:pl-[2rem] px-[1rem] flex flex-col justify-center items-center sm:items-start">
         <p className="text-green text-[16px] leading-[22px] mediumF md:mb-[16px] mb-[10px]">
           Contact Us
         </p>
-        <h1 className="blue_gradient_text md:text-[32px] text-[25px] boldF md:leading-[38px] leading-[28px]">
-          Wealth Management <br /> solutions wherever you go
+        <h1 className="blue_gradient_text md:text-[32px] sm:text-[25px] text-[20px] sm:text-start text-center boldF md:leading-[38px] leading-[28px] mb-[1rem]">
+          Wealth Management <br className="sm:flex hidden" /> solutions wherever
+          you go
         </h1>
 
         <img
@@ -23,13 +24,13 @@ const Footer = () => {
           advisor now
         </p>
 
-        <p className="text-[#0473EA] text-[20px] mediumF leading-[19px] mt-[34px]">
+        <p className="text-[#0473EA] xs:text-[20px] text-[18px] mediumF leading-[19px] xs:mt-[34px] mt-[20px]">
           Contact us
         </p>
 
-        <div className="flex gap-[4rem] sm:flex-row flex-col">
+        <div className="flex gap-[4rem] sm:flex-row flex-col sm:text-start text-center">
           <div>
-            <p className="blue_gradient_text text-[20px] mediumF leading-[19px] mt-[10px] mb-[10px]">
+            <p className="blue_gradient_text xs:text-[20px] text-[18px] mediumF leading-[19px] mt-[10px] mb-[10px]">
               Investments
             </p>
 
@@ -48,7 +49,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="blue_gradient_text text-[20px] mediumF leading-[19px] mt-[10px] mb-[10px]">
+            <p className="blue_gradient_text xs:text-[20px] text-[18px] mediumF leading-[19px] xs:mt-[10px] mb-[10px]">
               Bancassurance
             </p>
 
@@ -82,29 +83,29 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col gap-[15px]">
-            <p className="text-[18px] text-white mediumF leading-[21px]">
+            <p className="xs:text-[18px] text-[16px] text-white mediumF leading-[21px]">
               Quick links
             </p>
             <Link
-              className="text-light text-[16px] hover:text-white lightF leading-[22px]"
+              className="text-light xs:text-[16px] text-[14px] hover:text-white lightF leading-[22px]"
               to={"/"}
             >
               Home
             </Link>
             <Link
-              className="text-light text-[16px] hover:text-white lightF leading-[22px]"
+              className="text-light xs:text-[16px] text-[14px] hover:text-white lightF leading-[22px]"
               to={"/about"}
             >
               About
             </Link>
             <Link
-              className="text-light text-[16px] hover:text-white lightF leading-[22px]"
+              className="text-light xs:text-[16px] text-[14px] hover:text-white lightF leading-[22px]"
               to={"/services"}
             >
               Services
             </Link>
             <Link
-              className="text-light text-[16px] lightF leading-[22px]
+              className="text-light xs:text-[16px] text-[14px] lightF leading-[22px]
             hover:text-white"
               to={"/contact"}
             >
@@ -112,7 +113,7 @@ const Footer = () => {
             </Link>
           </div>
           <div>
-            <p className="text-[18px] text-white mediumF leading-[21px]">
+            <p className="xs:text-[18px] xs:text-[16px] text-[14px] text-white mediumF leading-[21px]">
               Speak to us today:
             </p>
             <div className="flex items-center gap-[12px] mt-[16px] mb-[12px]">
@@ -121,7 +122,7 @@ const Footer = () => {
                 alt="phone-icon"
                 className="w-[20px] h-[20px] mt-[3px]"
               />
-              <p className="text-light text-[16px] lightF leading-[22px]">
+              <p className="text-light xs:text-[16px] text-[14px] lightF leading-[22px]">
                 +233 27 650 2513
               </p>
             </div>
@@ -131,14 +132,14 @@ const Footer = () => {
                 alt="phone-icon"
                 className="w-[20px] h-[20px] mt-[3px]"
               />
-              <p className="text-light text-[16px] lightF leading-[22px]">
+              <p className="text-light xs:text-[16px] text-[14px] lightF leading-[22px]">
                 info@scwealthmanagement.com
               </p>
             </div>
           </div>
         </section>
 
-        <p className="text-center text-white mediumF text-[14px] leading-[16px] mt-[60px]">
+        <p className="text-center text-white mediumF xs:text-[14px] text-[12px] leading-[16px] mt-[60px]">
           © Standard Chartered 2024. All Rights Reserved.
         </p>
       </div>

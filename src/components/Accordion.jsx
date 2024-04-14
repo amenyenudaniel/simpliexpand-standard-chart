@@ -38,43 +38,43 @@ const Accordion = () => {
   };
 
   return (
-    <section className="padding mt-[81px] mb-[50px] xl:ml-[200px] ml-0">
+    <section className="padding mt-[81px] md:mb-[50px] sm:gap-[20px] gap-[5px]">
       <p className="text-green text-[16px] leading-[22px] mediumF md:mb-[16px] mb-[10px]">
         Our Investment Products
       </p>
-      <h1 className="blue_gradient_text md:text-[32px] text-[25px] boldF md:leading-[38px] leading-[28px] mb-[66px]">
-        Secure your financial future <br />
+      <h1 className="blue_gradient_text md:text-[32px] sm:text-[25px] text-[20px] boldF md:leading-[38px] leading-[28px] sm:mb-[66px] xs:mb-[30px] mb-[15px]">
+        Secure your financial future <br className="sm:flex hidden" />
         with a wide range of
-        <br /> investment options
+        <br className="sm:flex hidden" /> investment options
       </h1>
       <section
-        className="md:relative"
+        className="md:relative flex items-start md:flex-row flex-col  lg:gap-[100px] sm:gap-[50px] gap-[10px]"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="max-w-[450px] xl:h-[60vh] lg:h-[80vh] h-full">
+        <div className="h-full md:w-[60%] w-full">
           {accordionData.map((item, index) => (
             <div key={index} className="border-b border-[#DCDDDD]">
               <button
-                className="text-[20px] blue_gradient_text boldF outline-none leading-[25px] py-[12px] flex"
+                className="xs:text-[20px] text-[17px] blue_gradient_text boldF outline-none leading-[25px] sm:py-[12px] py-[7px] flex"
                 onClick={() => toggleAccordion(index)}
               >
                 {item.title}
               </button>
               <div
-                className={`accordion-content mt-[20px]  ${
+                className={`accordion-content xs:mt-[20px] mt-[6px] ${
                   activeIndex === index ? "open" : ""
                 }`}
               >
                 <div>
                   <div>
-                    <p className="leading-[22px] text-[16px] lightF text-deepGray mb-[1rem]">
+                    <p className="xs:leading-[22px] xs:text-[16px] text-[14px] lightF text-deepGray mb-[1rem]">
                       {item.content}
                     </p>
                     {item.link && (
                       <Link
                         to={`${item.link}`}
-                        className="flex items-center mt-[16px] mb-[20px]"
+                        className="flex items-center xs:mt-[16px] mt-[8px] xs:mb-[20px] mb-[20px]"
                       >
                         <p className="mediumF text-lightBlue text-[16px] underline hover:underline-darkGray cursor-pointer">
                           Learn more
@@ -87,15 +87,22 @@ const Accordion = () => {
                       </Link>
                     )}
                   </div>
-                  {activeIndex === index && (
-                    <img
-                      src={item.image}
-                      alt="accordion_image"
-                      className="md:absolute top-0 right-0 xl:w-[800px] xl:h-[600px] lg:h-[500px] lg:w-[600px] w-[400px] h-[350px] object-cover rounded-[10px]"
-                    />
-                  )}
                 </div>
               </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="h-full w-[100%] md:mb-[0px] mb-[50px]">
+          {accordionData.map((item, index) => (
+            <div>
+              {activeIndex === index && (
+                <img
+                  src={item.image}
+                  alt="accordion_image"
+                  className="rounded-[12px] w-full md:h-[569px] h-full object-cover"
+                />
+              )}
             </div>
           ))}
         </div>

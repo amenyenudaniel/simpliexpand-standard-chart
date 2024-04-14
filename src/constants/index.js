@@ -21,6 +21,7 @@ export const accordionData = [
     content:
       "Personal line of credit is an efficient and convenient way of meeting all your short-term liquidity needs.",
     image: "/images/grid2.png",
+    link: "/services#security",
   },
   {
     id: 4,
@@ -28,7 +29,7 @@ export const accordionData = [
     content:
       "Take advantage of our partnerships with global insurance providers to find the right protection for your health, retirement, education, legacy planning, savings, and investments.",
     image: "/images/grid3.png",
-    link: "/services#bancassrance",
+    link: "/services#protect",
   },
 
   {
@@ -36,6 +37,7 @@ export const accordionData = [
     title: "Wealth Lending",
     content: "Unlocking Your Cash Needs with Foreign Currency Overdrafts.",
     image: "/images/grid4.png",
+    link: "/services#wealth",
   },
 ];
 

@@ -129,6 +129,17 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .paddingLeft {
+    padding-left: 1rem;
+  }
+}
+
 .adds_container {
   background-image: url(../public/images/add.svg);
   height: 455px;
@@ -208,7 +219,6 @@
 .grid1 {
   background-image: url(../public/images/grid1.png);
   height: 541px;
-  width: 541px;
   background-size: cover;
   border-radius: 12px;
   background-position: center;
@@ -216,7 +226,7 @@
 
 .grid2 {
   background-image: url(../public/images/grid2.png);
-  width: 763px;
+  width: 100%;
   height: 541px;
   background-size: cover;
   border-radius: 12px;
@@ -225,8 +235,7 @@
 
 .grid3 {
   background-image: url(../public/images/grid3.png);
-
-  width: 763px;
+  width: 100%;
   height: 541px;
   background-size: cover;
   border-radius: 12px;
@@ -236,7 +245,7 @@
 .grid4 {
   background-image: url(../public/images/grid4.png);
   height: 541px;
-  width: 541px;
+  width: 100%;
   background-size: cover;
   border-radius: 12px;
   background-position: center;
@@ -302,4 +311,11 @@
 /* CSS for fade-in effect */
 .fade-in {
   opacity: 1;
+}
+
+.newT {
+  background: linear-gradient(270deg, #2c3a87 0%, #0061c7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

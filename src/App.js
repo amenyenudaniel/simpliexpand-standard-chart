@@ -5,6 +5,7 @@ import Services from "./pages/Services";
 import GlobalOutlook from "./pages/GlobalOutlook";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import FundLibrary from "./pages/FundLibrary";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/fund-library" element={<FundLibrary />} />
           <Route path="/about/global-outlook" element={<GlobalOutlook />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

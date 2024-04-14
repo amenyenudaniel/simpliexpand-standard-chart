@@ -12,11 +12,11 @@ const ContactHero = () => {
                 <img
                   src="/images/blueEllipse.svg"
                   alt="ellipse"
-                  className="ml-[-25px] mr-[10px]"
+                  className="xs:ml-[-25px] ml-[-15px] xs:mr-[10px] mr-[6px]"
                 />
                 Secure your financial
               </div>
-              <div className="flex items-center gap-[1rem]">
+              <div className="flex items-center gap-[1rem] xs:ml-0 ml-[6px]">
                 future with us
                 <img
                   src="/images/greenEllipse.svg"
@@ -28,11 +28,11 @@ const ContactHero = () => {
           </section>
         </header>
 
-        <section className="mt-[110px] mb-[110px] flex justify-center gap-[45px] flex-wrap padding">
-          <div className="w-[550px] h-full">
+        <section className="mt-[110px] mb-[110px] grid sm:grid-cols-2 md:gap-[45px] sm:gap-[10px] gap-[30px] flex-wrap padding">
+          <div className="w-full h-full">
             <iframe
               width="100%"
-              height="440"
+              height="400"
               frameborder="0"
               scrolling="no"
               marginheight="0"
@@ -43,17 +43,17 @@ const ContactHero = () => {
             </iframe>
           </div>
           <div>
-            <h2 className="blue_gradient_text mb-[24px] text-[20px] boldF leading-[24px]">
+            <h2 className="blue_gradient_text xs:mb-[24px] mb-[10px] xs:text-[20px] text-[18px] boldF leading-[24px]">
               Speak to us today
             </h2>
 
-            <div className="flex items-center gap-[12px] mt-[16px] mb-[12px]">
+            <div className="flex items-center gap-[12px] xs:mt-[16px] xs:mb-[12px]">
               <img
                 src="/images/phone2.svg"
                 alt="phone-icon"
                 className="w-[20px] h-[20px] mt-[3px]"
               />
-              <p className="text-darkGray text-[16px] lightF leading-[22px]">
+              <p className="text-darkGray xs:text-[16px] text-[14px] lightF leading-[22px]">
                 +233 27 650 2513
               </p>
             </div>
@@ -63,12 +63,12 @@ const ContactHero = () => {
                 alt="phone-icon"
                 className="w-[20px] h-[20px] mt-[3px]"
               />
-              <p className="text-darkGray text-[16px] lightF leading-[22px] w-full">
+              <p className="text-darkGray xs:text-[16px] text-[14px] lightF leading-[22px] w-full">
                 info@scwealthmanagement.com
               </p>
             </div>
 
-            <h2 className="blue_gradient_text mb-[24px] text-[20px] boldF leading-[24px] mt-[61px]">
+            <h2 className="blue_gradient_text xs:mb-[24px] mb-[10px] xs:text-[20px] text-[18px] boldF leading-[24px] mt-[61px]">
               Visit us today
             </h2>
 
@@ -78,7 +78,7 @@ const ContactHero = () => {
                 alt="phone-icon"
                 className="w-[20px] h-[20px] mt-[3px]"
               />
-              <p className="text-darkGray text-[16px] lightF leading-[22px]">
+              <p className="text-darkGray xs:text-[16px] text-[14px] lightF leading-[22px]">
                 4th Floor <br />
                 Opeibea House <br /> Liberation Road, Accra
               </p>

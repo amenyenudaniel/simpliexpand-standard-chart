@@ -10,11 +10,11 @@ const GlobalOutlook = () => {
               <img
                 src="/images/blueEllipse.svg"
                 alt="ellipse"
-                className="ml-[-25px] mr-[10px]"
+                className="xs:ml-[-25px] ml-[-15px] xs:mr-[10px] mr-[6px]"
               />
               Global
             </div>
-            <div className="flex items-center gap-[1rem]">
+            <div className="flex items-center gap-[1rem] xs:ml-0 ml-[6px]">
               Outlook 2024
               <img
                 src="/images/greenEllipse.svg"
@@ -26,9 +26,9 @@ const GlobalOutlook = () => {
         </section>
       </header>
 
-      <section className="flex sm:flex-row flex-col gap-[21px] justify-center padding py-[43px]">
+      <section className="flex sm:flex-row flex-col gap-[21px] justify-center padding xs:py-[43px] py-[20px]">
         <div className="max-w-[535px]">
-          <p className="sm:text-[18px] text-[16px] leading-[25px] text-deepGray lightF mb-[36px] ">
+          <p className="sm:text-[18px] xs:text-[16px] text-[15px] xs:leading-[25px] text-deepGray lightF xs:mb-[36px] mb-[10px] ">
             {" "}
             “A year ago, we emphasised the importance of avoiding the temptation
             to stay away from investments because of volatile markets which,
@@ -41,7 +41,7 @@ const GlobalOutlook = () => {
             2023.{" "}
           </p>
 
-          <p className="sm:text-[18px] text-[16px] leading-[25px] text-deepGray lightF">
+          <p className="sm:text-[18px] xs:text-[16px] text-[15px] xs:leading-[25px] text-deepGray lightF">
             {" "}
             As we step into 2024, we are likely to see interest rates drop in
             some of the world’s major economies, as inflationary pressures
@@ -58,7 +58,7 @@ const GlobalOutlook = () => {
           </p>
         </div>
         <div className="max-w-[535px]">
-          <p className="sm:text-[18px] text-[16px] leading-[25px] text-deepGray lightF mb-[36px] ">
+          <p className="sm:text-[18px] xs:text-[16px] text-[15px] xs:leading-[25px] text-deepGray lightF xs:mb-[36px] mb-[20px] ">
             {" "}
             On the local front, we expect Government of Ghana treasury bills to
             continue to offer attractive short-term returns, especially as
@@ -78,7 +78,7 @@ const GlobalOutlook = () => {
               Dr. Setor Quashigah
             </p>
 
-            <p className="text-[14px]  leading-[16px] text-deepGray lightF ">
+            <p className="xs:text-[14px] text-[13px] leading-[16px] text-deepGray lightF ">
               Head Affluent & Wealth Management/CEO, Standard Chartered Wealth
               Management Limited Company
             </p>

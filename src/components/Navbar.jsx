@@ -35,14 +35,37 @@ const Navbar = () => {
           >
             Home
           </Link>
-          <Link
-            to={"/services"}
-            className={`text-${
-              location.pathname === "/services" ? "lightBlue" : "lightGray"
-            } text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue`}
-          >
-            Products & Services
-          </Link>
+          <div className="flex items-center gap-[4px] link__hover">
+            <p
+              className={`text-${
+                location.pathname.includes("/services")
+                  ? "lightBlue"
+                  : "lightGray"
+              } text-[16px] leading-[22px] mediumF cursor-pointer hover:text-lightBlue`}
+            >
+              Products & Services
+            </p>
+            <img
+              src="/images/about-arrow.svg"
+              alt="arrow-down"
+              className="w-[20px] h-[20px] mt-[8px]"
+            />
+
+            <div className="absolute hiddenB w-[250px] h-[100px] bg-white appear px-[12px] py-[18px] rounded-[8px] top-[4rem]  ml-[-6rem]">
+              <Link
+                to={"/services"}
+                className="block px-4 py-2 text-[16px] lightF hover:text-lightBlue cursor-pointer"
+              >
+                Products & Services
+              </Link>
+              <Link
+                to={"/services/fund-library"}
+                className="block px-4 py-2 text-[16px] lightF hover:text-lightBlue cursor-pointer"
+              >
+                Fund Library
+              </Link>
+            </div>
+          </div>
           <div className="flex items-center gap-[4px] link__hover">
             <p
               className={`text-${
@@ -91,45 +114,53 @@ const Navbar = () => {
       </section>
 
       {toggleMenu && (
-        <section className="absolute top-0 bg-white w-full h-[50%] flex flex-col justify-center items-center gap-[1rem]">
-          <Link
-            to={"/"}
-            onClick={() => setToggleMenu(false)}
-            className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
-          >
-            Home
-          </Link>
-          <Link
-            to={"/services"}
-            onClick={() => setToggleMenu(false)}
-            className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
-          >
-            Products & Services
-          </Link>
+        <section className="absolute top-0 bg-white w-full h-[60%] flex flex-col justify-center  items-center gap-[1rem] md:hidden">
+          <section className="flex flex-col justify-center items-center gap-[20px] bg-white w-full xs:mt-[7rem] mt-[3rem] xs:py-[30px] py-[20px]">
+            <Link
+              to={"/"}
+              onClick={() => setToggleMenu(false)}
+              className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
+            >
+              Home
+            </Link>
+            <Link
+              to={"/services"}
+              onClick={() => setToggleMenu(false)}
+              className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
+            >
+              Products & Services
+            </Link>
+            <Link
+              to={"/services/fund-library"}
+              onClick={() => setToggleMenu(false)}
+              className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
+            >
+              Fund Library
+            </Link>
 
-          <Link
-            to={"/about"}
-            onClick={() => setToggleMenu(false)}
-            className="text-[16px] lightF hover:text-lightBlue cursor-pointer"
-          >
-            About Us
-          </Link>
-          <Link
-            to={"/about/global-outlook"}
-            onClick={() => setToggleMenu(false)}
-            className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
-          >
-            Global Outlook 2024
-          </Link>
+            <Link
+              to={"/about"}
+              onClick={() => setToggleMenu(false)}
+              className="text-[16px] lightF hover:text-lightBlue cursor-pointer"
+            >
+              About Us
+            </Link>
+            <Link
+              to={"/about/global-outlook"}
+              onClick={() => setToggleMenu(false)}
+              className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
+            >
+              Global Outlook 2024
+            </Link>
 
-          <Link
-            to={"/"}
-            onClick={() => setToggleMenu(false)}
-            className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
-          >
-            Contact
-          </Link>
-
+            <Link
+              to={"/contact"}
+              onClick={() => setToggleMenu(false)}
+              className=" text-[16px] lightF hover:text-lightBlue cursor-pointer"
+            >
+              Contact
+            </Link>
+          </section>
           <img
             src="/images/close.svg"
             alt="close-icon"

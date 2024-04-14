@@ -23,21 +23,21 @@ const TeamB = () => {
                 alt="team_image"
                 className="w-[140px] h-[140px] object-cover"
               />
-              <h2 className="text-darkGray mediumF text-[18px] leading-[21px]">
+              <h2 className="text-darkGray mediumF xs:text-[18px] text-[16px] leading-[21px]">
                 {item.name}
               </h2>
-              <p className="text-[14px] mediumF text-deepGray leading-[16px]">
+              <p className="xs:text-[14px] text-[13px] mediumF text-deepGray leading-[16px]">
                 {item.title}
               </p>
 
               {activeIndex !== index ? (
                 <div
-                  className={`flex items-center items-end cursor-pointer mt-[16px] mb-[20px] ${
+                  className={`flex items-center items-end cursor-pointer xs:mt-[16px] xs:mb-[20px] ${
                     activeIndex === index && "hidden"
                   }`}
                   onClick={() => toggleAccordion(index)}
                 >
-                  <p className="lightF text-lightBlue text-[16px] cursor-pointer hover:underline transition">
+                  <p className="lightF text-lightBlue xs:text-[16px] text-[14px] cursor-pointer hover:underline transition">
                     View more
                   </p>
                   <img
@@ -54,25 +54,25 @@ const TeamB = () => {
                 />
               )}
 
-              <div className="md:hidden mt-[10px]">
+              <div className="md:hidden mt-[10px] text-start">
                 <section className="mt-[10px] ">
                   {activeIndex === index && (
                     <div className="mt-[-10px] bg-[#F7F7F7] px-[16px] py-[15px]">
-                      <p className="sm:text-[18px] text-[16px] lightF text-deepGray">
+                      <p className="sm:text-[18px] xs:text-[16px] text-[15px] lightF text-deepGray">
                         <span className="text-darkGray boldF leading-[21px]">
                           Appointment:{" "}
                         </span>
                         {item.appointment}
                       </p>
 
-                      <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
+                      <p className="sm:text-[18px]  xs:text-[16px] text-[15px] lightF text-deepGray mt-[10px]">
                         <span className="text-darkGray boldF leading-[21px]">
                           Career:{" "}
                         </span>
                         {item.career}
                       </p>
 
-                      <p className="sm:text-[18px] text-[16px] lightF text-deepGray mt-[10px]">
+                      <p className="sm:text-[18px]  xs:text-[16px] text-[15px] lightF text-deepGray mt-[10px]">
                         <span className="text-darkGray boldF leading-[21px]">
                           Education:{" "}
                         </span>
@@ -83,7 +83,7 @@ const TeamB = () => {
                         className="flex items-center cursor-pointer mt-[5px] border-t border-[#DCDDDD]"
                         onClick={() => toggleAccordion(index)}
                       >
-                        <p className="lightF text-lightBlue text-[16px] cursor-pointer hover:underline transition">
+                        <p className="lightF text-lightBlue xs:text-[16px] text-[14px] cursor-pointer hover:underline transition">
                           Hide Details
                         </p>
                         <img

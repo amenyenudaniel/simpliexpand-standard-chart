@@ -11,7 +11,7 @@ const Hero = () => {
             <img
               src="/images/blueEllipse.svg"
               alt="ellipse"
-              className="ml-[-25px] mr-[10px]"
+              className="xs:ml-[-25px] mr-[10px]"
             />
             Your partner in securing your
           </div>
@@ -42,31 +42,33 @@ const Hero = () => {
         </div>
       </section>
       <section className="sm:hidden block">
-        <div className="text-[26px] boldF text-white leading-[31px]">
-          <div className="flex items-center">
+        <div className="text-[20px] boldF text-white leading-[31px] text-wrap">
+          <div className="flex items-center flex-wrap">
             <img
               src="/images/blueEllipse.svg"
               alt="ellipse"
-              className="ml-[-25px] mr-[10px]"
+              className="xs:ml-[-25px] ml-[-10px] xs:mr-[10px] mr-[6px]"
             />
             Your partner in securing
           </div>
-          your financial future with a<h1>wide range of investment</h1>
-          <div className="flex items-center gap-[1rem]">
-            options
-            <img
-              src="/images/greenEllipse.svg"
-              alt="ellipse"
-              className="mt-[10px]"
-            />
+          <div className="xs:ml-[0px] ml-[11px]">
+            your financial future with a wide range of investment
+            <div className="flex items-center gap-[1rem] flex-wrap">
+              options
+              <img
+                src="/images/greenEllipse.svg"
+                alt="ellipse"
+                className="mt-[10px]"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-[30px] mb-[50px]">
           <button
             onClick={() => navigate("/services")}
-            className="rounded-[2000px] button_gradient flex items-center px-[30px]  py-[16px] cursor-pointer gap-[5px] hover:bg-black transition"
+            className="rounded-[2000px] button_gradient flex items-center sm:px-[30px] px-[20px]  sm:py-[16px] py-[8px] cursor-pointer gap-[5px] hover:bg-black transition"
           >
-            <p className="sm:text-[18px] text-[16px] mediumF text-white leading-[22px] ">
+            <p className="sm:text-[18px] text-[14px] mediumF text-white leading-[22px] ">
               Explore Investment Products
             </p>
             <img
