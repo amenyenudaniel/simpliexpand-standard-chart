@@ -13,23 +13,24 @@ const TeamC = () => {
       {/* Management */}
       <section className="flex md:flex-row flex-col gap-[10px] relative md:text-start text-center">
         {managementTeam3.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="md:mr-[2rem]">
             <div
-              className={`lg:w-[300px] md:w-[200px] w-full flex flex-col items-center justify-center text-center 
+              className={` w-full flex flex-col items-center justify-center text-center 
                 `}
             >
-              <img
-                src={item.image}
-                alt="team_image"
-                className="w-[140px] h-[140px] object-cover"
-              />
-              <h2 className="text-darkGray mediumF xs:text-[18px] text-[16px] leading-[21px]">
-                {item.name}
-              </h2>
-              <p className="xs:text-[14px] text-[13px] mediumF text-deepGray leading-[16px]">
-                {item.title}
-              </p>
-
+              <div className="flex items-center flex-col md:h-[170px] h-full">
+                <img
+                  src={item.image}
+                  alt="team_image"
+                  className="w-[140px] h-[140px] object-cover"
+                />
+                <h2 className="text-darkGray mediumF xs:text-[18px] text-[16px] leading-[21px]">
+                  {item.name}
+                </h2>
+                <p className="xs:text-[14px] text-[13px] mediumF text-deepGray leading-[16px]">
+                  {item.title}
+                </p>
+              </div>
               {activeIndex !== index ? (
                 <div
                   className={`flex items-center items-end cursor-pointer xs:mt-[16px] xs:mb-[20px] ${

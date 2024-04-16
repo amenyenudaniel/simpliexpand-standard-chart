@@ -1,51 +1,8 @@
-export const accordionData = [
-  {
-    id: 1,
-    title: "Mutual Funds",
-    content:
-      "Our mutual funds offer an affordable access to a range of assets and markets to match your risk profile and financial goals.",
-    image: "/images/grid4.png",
-    link: "/services#mutual-funds",
-  },
-  {
-    id: 2,
-    title: "Fixed Income Securities",
-    content:
-      "Create steady income with stability in unpredictable market conditions.",
-    image: "/images/grid1.png",
-    link: "/services#fixed-income-securities",
-  },
-  {
-    id: 3,
-    title: "Security Backed Lending",
-    content:
-      "Personal line of credit is an efficient and convenient way of meeting all your short-term liquidity needs.",
-    image: "/images/grid2.png",
-    link: "/services#security",
-  },
-  {
-    id: 4,
-    title: "Bancassrance",
-    content:
-      "Take advantage of our partnerships with global insurance providers to find the right protection for your health, retirement, education, legacy planning, savings, and investments.",
-    image: "/images/grid3.png",
-    link: "/services#protect",
-  },
-
-  {
-    id: 4,
-    title: "Wealth Lending",
-    content: "Unlocking Your Cash Needs with Foreign Currency Overdrafts.",
-    image: "/images/grid4.png",
-    link: "/services#wealth",
-  },
-];
-
 export const managementTeam = [
   {
     id: 1,
     name: "Dr. Setor Quashigah",
-    title: "Chief Executive Officer",
+    title: "Executive Director",
     image: "/images/team3.png",
     appointment:
       "Dr. Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
@@ -84,8 +41,7 @@ export const managementTeam2 = [
   {
     id: 3,
     name: "Kwabena Koranteng",
-    title:
-      "Executive Director  & Chief Financial Officer (SCBGH), Director (SCWMLC)",
+    title: "Board Chairman",
     image: "/images/team5.png",
     appointment:
       "Kwabena joined Standard Chartered, Nigeria in 2022 as Chief Risk Officer and Head of Operational Risk, West Africa. And also joined SCWMLC on 12 October 2022 as the Chairman and Director the Board. He has over 22 years’ experience in the financial sector having held other roles at Standard Chartered Ghana and Barclays Group across several countries in Africa and Indian Ocean. His previous roles held includes Chief Risk Officer Ghana, Chief Risk Officer Seychelles, Regional Credit Officer Johannesburg, Head of Wholesale Credit, Ghana and Head of Compliance, Seychelles amongst others. ",
@@ -97,7 +53,7 @@ export const managementTeam2 = [
   {
     id: 1,
     name: "Dr. Setor Quashigah",
-    title: "Chief Executive Officer",
+    title: "Executive Director",
     image: "/images/team3.png",
     appointment:
       "Dr. Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
@@ -110,8 +66,7 @@ export const managementTeam2 = [
   {
     id: 2,
     name: "Albert Larweh Asante",
-    title:
-      "Executive Director  & Chief Financial Officer (SCBGH), Director (SCWMLC)",
+    title: "Non- Executive Director",
     image: "/images/team4.png",
     appointment:
       "Albert was appointed as Chief Financial Officer in April 2022, and appointed as Director of SCWMLC on 21st July 2023. He is responsible for providing functional leadership for Finance and governance oversight for the Supply Chain and Property functions. He is also a trustee of Standard Chartered Science Education Trust Fund and Standard Chartered Kenneth Dadzie Memorial Education Trust Fund.",
@@ -124,8 +79,7 @@ export const managementTeam2 = [
   {
     id: 4,
     name: "Joseph Boakye Danquah Ampofo",
-    title:
-      "Chief Executive Officer(Enterprise Trustees), Independent Non-Executive Director(SCWMLC)",
+    title: "Independent Non- Executive Director",
     image: "/images/team6.png",
     appointment:
       "Joseph joined the Board of SCWMLC on 12 October 2023. Joseph is also the Chief Executive Officer of Enterprise Trustees and is responsible for leading the team at Enterprise Trustees to deliver retirement solutions to Companies and Individuals across Ghana. He has a strong dedication to client service excellence and this he has ensured runs through the entire organization. ",
@@ -140,8 +94,7 @@ export const managementTeam3 = [
   {
     id: 1,
     name: "Kobina Sam Bentsi-Enchill",
-    title:
-      "General Manager, Financial Planning(SCANCOM MTN GH), Independent Non-Execute Director(SCWMLC)",
+    title: "Independent Non- Executive Director",
     image: "/images/team7.png",
     appointment:
       "Kobina joined the Board of SCWMLC on 12 October 2023 as an Independent non-executive director. Kobina is currently the General manager, financial planning for Scancom MTN Ghana and on secondment at Lonestar Cell in Liberia. He joined Scancom MTN Ghana in 2001. ",

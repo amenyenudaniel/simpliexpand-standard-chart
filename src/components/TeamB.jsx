@@ -18,18 +18,19 @@ const TeamB = () => {
               className={` w-full flex flex-col items-center justify-center text-center 
                 `}
             >
-              <img
-                src={item.image}
-                alt="team_image"
-                className="w-[140px] h-[140px] object-cover"
-              />
-              <h2 className="text-darkGray mediumF xs:text-[18px] text-[16px] leading-[21px]">
-                {item.name}
-              </h2>
-              <p className="xs:text-[14px] text-[13px] mediumF text-deepGray leading-[16px]">
-                {item.title}
-              </p>
-
+              <div className="flex items-center flex-col lg:h-[180px] md:h-[190px] h-full">
+                <img
+                  src={item.image}
+                  alt="team_image"
+                  className="w-[140px] h-[140px] object-cover"
+                />
+                <h2 className="text-darkGray mediumF xs:text-[18px] text-[16px] leading-[21px]">
+                  {item.name}
+                </h2>
+                <p className="xs:text-[14px] text-[13px] mediumF text-deepGray leading-[16px]">
+                  {item.title}
+                </p>
+              </div>
               {activeIndex !== index ? (
                 <div
                   className={`flex items-center items-end cursor-pointer xs:mt-[16px] xs:mb-[20px] ${

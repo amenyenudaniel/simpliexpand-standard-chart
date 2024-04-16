@@ -37,7 +37,7 @@ const AboutHero = () => {
           subsidiary of Standard Chartered Bank Ghana PLC incorporated to
           provide investment advisory services to the bank’s clients. It is a
           wholly owned subsidiary of the bank and will promote the distribution
-          of investment and other wealth products to the bank’s clients.SCWML
+          of investment and other wealth products to the bank’s clients. SCWML
           opens the doors of global financial markets to Ghanaians allowing them
           to diversify their investment portfolios more broadly with products
           across different asset classes, currencies and geographies. Ghanaians
