@@ -27,7 +27,7 @@ export const managementTeam = [
     id: 3,
     name: "Marilyn Kwasie(ESQ)",
     title: "Compliance Officer",
-    image: "/images/team2.png",
+    image: "/images/7.jpg",
     appointment:
       "Marilyn was appointed as SCWMLC Compliance Officer on 11th February 2023.  ",
     career:
@@ -67,7 +67,7 @@ export const managementTeam2 = [
     id: 2,
     name: "ALBERT LARWEH ASANTE",
     title: "NON-EXECUTIVE DIRECTOR (SCWMLC)",
-    image: "/images/2.png",
+    image: "/images/2.jpg",
     appointment:
       "Albert was appointed as a Non-Executive Director of Standard Chartered Wealth Management Limited Company on 21st July 2023 and brings aboard considerable experience in Strategy, Financial Planning and Analysis, Leadership and Enterprise Risk Management.",
     career:
@@ -80,7 +80,7 @@ export const managementTeam2 = [
     id: 4,
     name: "JOSEPH BOAKYE DANQUAH AMPOFO",
     title: "INDEPENDENT NON-EXECUTIVE DIRECTOR (SCWMLC)",
-    image: "/images/3.png",
+    image: "/images/9.jpg",
     appointment:
       "Joseph joined the Board of SCWMLC on 12 October 2023 as an Independent Non-Executive Director with a strong dedication to delivering excellent client service which has been a cornerstone in career.",
     career:
@@ -95,7 +95,7 @@ export const managementTeam3 = [
     id: 1,
     name: "KOBINA SAM BENTSI-ENCHILL",
     title: "Independent Non- Executive Director",
-    image: "/images/4.png",
+    image: "/images/6.jpg",
     appointment:
       " Kobina joined the Board of SCWMLC on 12 October 2023 as an Independent Non-Executive Director and brings on board rich experience in Financial management and Reporting. He is currently the Chief Finance Officer of Lonestar Cell Corporation (MTN Liberia).",
     career:
@@ -108,13 +108,13 @@ export const managementTeam3 = [
     id: 2,
     name: "Yaw Awua Amponsah(ESQ)",
     title: "Company Secretary",
-    image: "/images/team8.png",
+    image: "/images/8.jpg",
     appointment:
       "Yaw was appointed as Company Secretary on 12th October 2022 and is currently a Legal Counsel in the Legal Department of Standard Chartered Bank Ghana PLC.  ",
     career:
       "He is a lawyer of fourteen (14) years standing and a Chartered Arbitrator. He has a diverse experience as a legal practitioner having worked as a Civil Defense Lawyer at the Attorney General’s Department, an in-house lawyer at PBC Limited, a licensed cocoa buying company and at Ghana’s premier university, the University of Ghana.  He has an interest in sharing legal knowledge and spent his formative years in legal practice as a volunteer Adviser at the Citizen’s Advice Bureaux, a British charity which provides free, independent and confidential advice on legal and other matters in the United Kingdom.",
     education:
-      "Yaw holds a Bachelor of Arts in Law with Marketing from Buckinghamshire New University, United Kingdom and a Postgraduate Diploma in International Commercial Arbitration from Queen Mary, University of London.   ",
+      "Yaw holds a Bachelor of Arts in Law with Marketing from Buckinghamshire New University, United Kingdom and a Postgraduate Diploma in International Commercial Arbitration from Queen Mary, University of London.",
     link: "ppp",
   },
 ];
