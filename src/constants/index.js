@@ -1,15 +1,15 @@
 export const managementTeam = [
   {
     id: 1,
-    name: "Dr. Setor Quashigah",
-    title: "Executive Director",
-    image: "/images/team3.png",
+    name: "DR. SETOR QUASHIGAH",
+    title: "CHIEF EXECUTIVE OFFICER AND DIRECTOR (SCWMLC)",
+    image: "/images/1.png",
     appointment:
-      "Dr. Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
+      "Dr Setor Quashigah was appointed as the First Chief Executive Officer of SCWMLC on 12th October 2022.",
     career:
-      "Setor is an experienced banker and leadership coach with a reputation for developing superior talent. Over the course of her 20-year career with the bank, she has held a number of senior roles including: Head of Direct Banking, Head of Proximity and Remote Banking and General Manager for Preferred and Priority Banking. In her current role, Setor is responsible for delivering world class wealth products and solutions. She has successfully built a team of high performing Relationship Managers and best in class Advisors who have contributed to the success of the overall Consumer, Private and Business Banking Segment.",
+      " Setor is an experienced banker with over 20 years’ experience and a leadership coach with a reputation for developing superior talent. She has held a number of senior roles including Head of Direct Banking, Head of Proximity and Remote Banking and General Manager for Preferred and Priority Banking in Standard Chartered Bank Ghana PLC.",
     education:
-      "Setor has a Doctorate in Business Leadership from Swiss Business School and is a certified Wealth Manager from INSEAD, France. Setor also has an MBA from the University of Leicester, UK. And B.A from the Kwame Nkrumah University of Science and Technology in Ghana. ",
+      "Setor holds a Doctorate in Business Leadership from Swiss Business School, an MBA from the University of Leicester, UK, and a B.A. from the Kwame Nkrumah University of Science and Technology. She is also a certified Wealth Manager from INSEAD, France.",
   },
 
   {
@@ -40,68 +40,68 @@ export const managementTeam = [
 export const managementTeam2 = [
   {
     id: 3,
-    name: "Kwabena Koranteng",
-    title: "Board Chairman",
+    name: "KWABENA KORANTENG",
+    title: "BOARD CHAIRMAN (SCWMLC)",
     image: "/images/team5.png",
     appointment:
-      "Kwabena joined Standard Chartered, Nigeria in 2022 as Chief Risk Officer and Head of Operational Risk, West Africa. And also joined SCWMLC on 12 October 2022 as the Chairman and Director the Board. He has over 22 years’ experience in the financial sector having held other roles at Standard Chartered Ghana and Barclays Group across several countries in Africa and Indian Ocean. His previous roles held includes Chief Risk Officer Ghana, Chief Risk Officer Seychelles, Regional Credit Officer Johannesburg, Head of Wholesale Credit, Ghana and Head of Compliance, Seychelles amongst others. ",
+      "Kwabena was appointed as the First Board Chairman of SCWMLC on 12th October 2022. He has over 22 years’ experience in the financial sector having held roles at Standard Chartered Bank Ghana and Barclays Group across several countries in Africa and Indian Ocean.",
     career:
-      "Kwabena provides oversight of the enterprise-wide risks and leadership on risk issues, developing and maintaining risk management framework and fostering a strong risk culture across the organisation. He is responsible for enabling the efficient and effective governance of significant risks, and related opportunities for the franchise in West Africa and a strategic enabler in integrating risk management in the bank’s strategic initiatives. Kwabena is passionate about developing talent and empowering young people. As a sponsor of Talent Market place, Kwabena was actively involved in promoting a talent sharing mindset among his peers, drives opportunity creation and encourages usage of the platform.",
+      "Kwabena is currently the West Africa Cluster Chief Risk Officer for Standard Chartered Bank. He previously held roles including Chief Risk Officer Ghana, Chief Risk Officer Seychelles, Regional Credit Officer Johannesburg, Head of Wholesale Credit, Ghana and Head of Compliance, Seychelles. Kwabena is passionate about developing talent and empowering young people.",
     education:
-      "He is Chartered Management Account and also a member of the Institute of Chartered Accountants Ghana. Holds a first degree in Bsc. Business Administration (Banking and Finance option) from the University of Ghana and a Master of Business Administration from the University of Leicester U.K  ",
+      "He is Chartered Management Account and a member of the Institute of Chartered Accountants Ghana. He holds a Master of Business Administration from the University of Leicester U.K, Master of Law (Corporate & Commercial Law) from University of Ghana and a first degree in BSC Business Administration (Banking and Finance) from the University of Ghana.",
   },
   {
     id: 1,
-    name: "Dr. Setor Quashigah",
-    title: "Executive Director",
-    image: "/images/team3.png",
+    name: "DR. SETOR QUASHIGAH ",
+    title: "CHIEF EXECUTIVE OFFICER AND DIRECTOR (SCWMLC)",
+    image: "/images/1.png",
     appointment:
-      "Dr. Setor Quashigah was appointed Head, Affluent & Wealth Management of SCB GH in November 2015 and Chief Executive Officer of SCWMLC on 12th October 2022.  ",
+      "Dr Setor Quashigah was appointed as the First Chief Executive Officer of SCWMLC on 12th October 2022.",
     career:
-      "Setor is an experienced banker and leadership coach with a reputation for developing superior talent. Over the course of her 20-year career with the bank, she has held a number of senior roles including: Head of Direct Banking, Head of Proximity and Remote Banking and General Manager for Preferred and Priority Banking. In her current role, Setor is responsible for delivering world class wealth products and solutions. She has successfully built a team of high performing Relationship Managers and best in class Advisors who have contributed to the success of the overall Consumer, Private and Business Banking Segment.",
+      " Setor is an experienced banker with over 20 years’ experience and a leadership coach with a reputation for developing superior talent. She has held a number of senior roles including Head of Direct Banking, Head of Proximity and Remote Banking and General Manager for Preferred and Priority Banking in Standard Chartered Bank Ghana PLC.",
     education:
-      "Setor has a Doctorate in Business Leadership from Swiss Business School and is a certified Wealth Manager from INSEAD, France. Setor also has an MBA from the University of Leicester, UK. And B.A from the Kwame Nkrumah University of Science and Technology in Ghana. ",
+      "Setor holds a Doctorate in Business Leadership from Swiss Business School, an MBA from the University of Leicester, UK, and a B.A. from the Kwame Nkrumah University of Science and Technology. She is also a certified Wealth Manager from INSEAD, France.",
   },
 
   {
     id: 2,
-    name: "Albert Larweh Asante",
-    title: "Non- Executive Director",
-    image: "/images/team4.png",
+    name: "ALBERT LARWEH ASANTE",
+    title: "NON-EXECUTIVE DIRECTOR (SCWMLC)",
+    image: "/images/2.png",
     appointment:
-      "Albert was appointed as Chief Financial Officer in April 2022, and appointed as Director of SCWMLC on 21st July 2023. He is responsible for providing functional leadership for Finance and governance oversight for the Supply Chain and Property functions. He is also a trustee of Standard Chartered Science Education Trust Fund and Standard Chartered Kenneth Dadzie Memorial Education Trust Fund.",
+      "Albert was appointed as a Non-Executive Director of Standard Chartered Wealth Management Limited Company on 21st July 2023 and brings aboard considerable experience in Strategy, Financial Planning and Analysis, Leadership and Enterprise Risk Management.",
     career:
-      "Albert joined Standard Chartered Bank Ghana PLC in 2006 and has held various senior roles including: Head, Wholesale Banking Business Finance, Ghana; Financial Controller and Chief Financial Officer (CFO) for Standard Chartered Bank Angola S.A. He was an Executive Director of the Bank in Angola and acted as Chief Executive Officer for nearly a year. Until his appointment, he acted as CFO for six (6) months and prior to that was the Cluster Head of Finance for Corporate, Commercial & Institutional Banking, West Africa with oversight responsibility for Nigeria, Ghana, Cameroon, Cote d’Ivoire, Gambia and Sierra Leone.",
+      "He is currently the Chief Financial Officer, and an Executive Director of Standard Chartered Bank Ghana PLC. Prior to his current role, Albert served as Cluster Head of Finance (West Africa) for Corporate and Investment Banking and also had stints as an Executive Director, Chief Financial Officer, Financial Controller for Standard Chartered Bank Angola S.A, and acted as CEO for nearly a year. He is also a trustee of Standard Chartered Science Education and Kenneth Dadzie Memorial Education Endowment Funds.",
     education:
-      "Albert is a Fellow of the Institute of Chartered Accountants, Ghana; a CFA Charterholder, holds an MBA from the University of Warwick, United Kingdom and Bachelor of Science in Administration (Accounting) from the University of Ghana, Legon. ",
+      "Albert is a Fellow of the Institute of Chartered Accountants, Ghana; a CFA Charterholder, a member of the Ghana Association of Restructuring and Insolvency Advisors (GARIA). He holds an MBA from the University of Warwick, United Kingdom, and a Bachelor of Science in Administration (Accounting option) degree from the University of Ghana, Legon.",
   },
 
   {
     id: 4,
-    name: "Joseph Boakye Danquah Ampofo",
-    title: "Independent Non- Executive Director",
-    image: "/images/team6.png",
+    name: "JOSEPH BOAKYE DANQUAH AMPOFO",
+    title: "INDEPENDENT NON-EXECUTIVE DIRECTOR (SCWMLC)",
+    image: "/images/3.png",
     appointment:
-      "Joseph joined the Board of SCWMLC on 12 October 2023. Joseph is also the Chief Executive Officer of Enterprise Trustees and is responsible for leading the team at Enterprise Trustees to deliver retirement solutions to Companies and Individuals across Ghana. He has a strong dedication to client service excellence and this he has ensured runs through the entire organization. ",
+      "Joseph joined the Board of SCWMLC on 12 October 2023 as an Independent Non-Executive Director with a strong dedication to delivering excellent client service which has been a cornerstone in career.",
     career:
-      "Joseph has had over 23 years’ experience in the Enterprise Group performing various leadership roles. Joseph began his career as a national service person with Enterprise Insurance, growing into various roles which largely drove him as a turn-around specialist working in key Branch networks. In 2011 Joseph joined the newly formed entity Enterprise Trustees as Head of Sales & Marketing to drive the foundational growth of this new entity. In December 2013, he took up the role of the General Manager to lead the business and subsequently by dint of hard work was elevated to Executive Director and Managing Director subsequent.",
+      "Joseph is the Chief Executive Officer of Enterprise Trustees Limited with over 25 years’ experience with various leadership roles within the Insurance sector. He commenced his career with Enterprise Insurance Limited and held various roles prior to joining Enterprise Trustees Limited as the Head of Sales & Marketing. Prior to his appointment as the CEO, he was the General Manager and subsequently appointed as an Executive Director.",
     education:
-      "He is Chartered Management Account and also a member of the Institute of Chartered Accountants Ghana. Holds a first degree in Bsc. Business Administration (Banking and Finance option) from the University of Ghana and a Master of Business Administration from the University of Leicester U.K   Joseph holds a Bachelor of Arts degree in Political Scie and Sociology. He also holds a Diploma in Insuranc Pensions from the West Africa Insurance Institute (WAII) The Gambia, having completed with Distinction, and Advanced Diploma from the Ghana Insurance College as well a Cert CII Holder of the Chartered Insurance Institute UK. He is a holder of an SMDP certificate from University Stellenbosch Executive Program, South Africa.   With a passion for youth empowerment and leadership, Jos is a fellow of the Africa Leadership Initiative - W Africa and the Aspen Global Leadership Network. Joseph lo sports and the outdoors. He is also an avid golfer.Outs Enterprise Group, Joseph is the President of the Chamber Corporate Trustees in Ghana, Vice President of  University of Ghana Alumni Association, Independent Direc of Standard Chartered Wealth Management Limited and Direc at An Art of Giving  ",
+      "He holds a Bachelor of Arts in Political Science and Sociology from University of Ghana Legon In addition, he holds a Diploma in Insurance from the West Africa Insurance Institute (WAII), The Gambia; an Advanced Diploma from the Ghana Insurance College, a Cert CII Holder of the Chartered Insurance Institute, UK and an SMDP Certificate from University of Stellenbosch Executive Program, South Africa. With a passion for youth empowerment and leadership, Joseph is a fellow of the Africa Leadership Initiative – West Africa and the Aspen Global Leadership Network. Joseph is the President of the Chamber of Corporate Trustees in Ghana, Vice President of the University of Ghana Alumni Association and a Director at An Art of Giving. He is an avid golfer.",
   },
 ];
 
 export const managementTeam3 = [
   {
     id: 1,
-    name: "Kobina Sam Bentsi-Enchill",
+    name: "KOBINA SAM BENTSI-ENCHILL",
     title: "Independent Non- Executive Director",
-    image: "/images/team7.png",
+    image: "/images/4.png",
     appointment:
-      "Kobina joined the Board of SCWMLC on 12 October 2023 as an Independent non-executive director. Kobina is currently the General manager, financial planning for Scancom MTN Ghana and on secondment at Lonestar Cell in Liberia. He joined Scancom MTN Ghana in 2001. ",
+      " Kobina joined the Board of SCWMLC on 12 October 2023 as an Independent Non-Executive Director and brings on board rich experience in Financial management and Reporting. He is currently the Chief Finance Officer of Lonestar Cell Corporation (MTN Liberia).",
     career:
-      "Kobina has over 23 years’ experience in accounting and finance and has worked in companies such as Integrated Investments Limited and Provident Insurance company as well. Working in these companies and Scancom MTN GH, he has occupied various roles including Accounting officer, Internal Audit officer, Treasury and cash management, Revenue and Accounts Receivable, Finance operations and Supply management. ",
+      "Kobina has over 23 years’ experience in Accounting and Finance and has worked across industries including Insurance, Commerce and Telecommunications over those years. Over the course of his career, Kobina has occupied various roles in Internal Audit, Treasury & Cash Management, Branch Operations, Finance Operations, Corporate Performance Management, Supply Chain Management and Financial Planning and Analysis.",
     education:
-      "Kobina holds a Bachelor of Commerce from the University of Cape Coast, a qualified member of the Institute of Chartered Accountants, Ghana (ICAG) and the Chartered Institute of Management Accountants (CIMA).",
+      "Kobina holds a Bachelor of Commerce from the University of Cape Coast and is a qualified member of the Institute of Chartered Accountants, Ghana (ICAG), the Chartered Institute of Management Accountants (CIMA, UK) and Institute of Directors, Ghana (IOD).",
   },
 
   {
