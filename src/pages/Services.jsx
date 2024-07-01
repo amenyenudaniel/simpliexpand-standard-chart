@@ -12,7 +12,7 @@ const Services = () => {
       <Navbar />
       <ServiceHero />
       <Products />
-      <Scan />
+      {/* <Scan /> */}
       <Grid />
       <Footer />
     </section>

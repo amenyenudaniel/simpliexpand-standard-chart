@@ -9,7 +9,7 @@ const GlobalOutlook = () => {
     <section>
       <Navbar />
       <GlobalOutlookHero />
-      <Scan />
+      {/* <Scan /> */}
       <Footer />
     </section>
   );
