@@ -81,6 +81,11 @@ const Footer = () => {
             <p className="text-[14px] text-white mt-[30px] lightF leading-[16px]">
               Subsidiary of Standard Chartered Bank PLC
             </p>
+            <Link target="_blank" to={"https://www.sc.com/gh/"}>
+              <button className="text-white text-[14px] mediumF border border-white py-[8px] px-[20px] rounded-[2000px] mt-[30px]">
+                Visit Standard Chartered Bank
+              </button>
+            </Link>
           </div>
           <div className="flex flex-col gap-[15px]">
             <p className="xs:text-[18px] text-[16px] text-white mediumF leading-[21px]">
